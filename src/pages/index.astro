@@ -1,0 +1,45 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Header from "../components/Header.astro";
+---
+
+<Layout title="Bienvenido a mi Curriculum Vitae">
+  <Header />
+  <section class="max-w-7xl m-auto grid grid-cols-2 gap-10 py-4">
+    <article class="bg-blue-200">
+      <ul role="list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+      </ul>
+    </article>
+    <article class="bg-blue-400">
+      <ul role="list" class="flex flex-col gap-4">
+        <Card
+          href="#"
+          title="Documentation"
+          body="Learn how Astro works and explore the official API docs."
+        />
+        <Card
+          href="#"
+          title="Integrations"
+          body="Supercharge your project with new frameworks and libraries."
+        />
+        <Card
+          href="#"
+          title="Themes"
+          body="Explore a galaxy of community-built starter themes."
+        />
+        <Card
+          href="#"
+          title="Community"
+          body="Come say hi to our amazing Discord community. ❤️"
+        />
+      </ul>
+    </article>
+  </section>
+</Layout>
