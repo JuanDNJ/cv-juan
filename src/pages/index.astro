@@ -6,40 +6,146 @@ import Header from "../components/Header.astro";
 
 <Layout title="Bienvenido a mi Curriculum Vitae">
   <Header />
-  <section class="max-w-7xl m-auto grid grid-cols-2 gap-10 py-4">
-    <article class="bg-blue-200">
-      <ul role="list">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-      </ul>
+  <section class="max-w-7xl m-auto grid md:grid-cols-2 gap-10 p-4">
+    <article class="">
+      <section class="flex flex-col py-4 gap-4">
+        <div>
+          <h2>SOBRE MÍ</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, aliquam! Quidem ullam minima inventore eos repellat
+            quae accusamus earum quod?
+          </p>
+        </div>
+        <div>
+          <h2>DATOS PERSONALES</h2><p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, aliquam! Quidem ullam minima inventore eos repellat
+            quae accusamus earum quod?
+          </p>
+        </div>
+        <div>
+          <h2>DATOS DE INTERES</h2><p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, aliquam! Quidem ullam minima inventore eos repellat
+            quae accusamus earum quod?
+          </p>
+        </div>
+        <div>
+          <h2>CONTACTO</h2><p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, aliquam! Quidem ullam minima inventore eos repellat
+            quae accusamus earum quod?
+          </p>
+        </div>
+      </section>
     </article>
-    <article class="bg-blue-400">
-      <ul role="list" class="flex flex-col gap-4">
-        <Card
-          href="#"
-          title="Documentation"
-          body="Learn how Astro works and explore the official API docs."
-        />
-        <Card
-          href="#"
-          title="Integrations"
-          body="Supercharge your project with new frameworks and libraries."
-        />
-        <Card
-          href="#"
-          title="Themes"
-          body="Explore a galaxy of community-built starter themes."
-        />
-        <Card
-          href="#"
-          title="Community"
-          body="Come say hi to our amazing Discord community. ❤️"
-        />
-      </ul>
+    <article class="">
+      <section class="flex flex-col gap-4 size-full">
+        <article class="min-h-56">
+          <h2 class="text-2xl font-bold">EXPERIENCIA PROFESIONAL</h2>
+          <ul role="list" class="flex flex-col gap-4 text-lg">
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
+              harum expedita perferendis numquam libero officiis iure molestiae
+              delectus, maxime nemo possimus earum. Repellendus!
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
+              harum expedita perferendis numquam libero officiis iure molestiae
+              delectus, maxime nemo possimus earum. Repellendus!
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
+              harum expedita perferendis numquam libero officiis iure molestiae
+              delectus, maxime nemo possimus earum. Repellendus!
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
+              harum expedita perferendis numquam libero officiis iure molestiae
+              delectus, maxime nemo possimus earum. Repellendus!
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
+              harum expedita perferendis numquam libero officiis iure molestiae
+              delectus, maxime nemo possimus earum. Repellendus!
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
+              harum expedita perferendis numquam libero officiis iure molestiae
+              delectus, maxime nemo possimus earum. Repellendus!
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
+              harum expedita perferendis numquam libero officiis iure molestiae
+              delectus, maxime nemo possimus earum. Repellendus!
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
+              harum expedita perferendis numquam libero officiis iure molestiae
+              delectus, maxime nemo possimus earum. Repellendus!
+            </li>
+          </ul>
+        </article>
+        <article class="bg-stone-600 min-h-56">
+          <h2>FORMACIÓN REGLADA</h2>
+          <ul role="list" class="flex flex-col gap-4">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+          </ul>
+        </article>
+        <article class="bg-stone-600 min-h-56">
+          <h2>FORMACIÓN NO REGLADA</h2>
+          <ul role="list" class="flex flex-col gap-4">
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio, laudantium.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio, laudantium.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio, laudantium.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio, laudantium.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio, laudantium.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio, laudantium.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio, laudantium.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio, laudantium.
+            </li>
+          </ul>
+        </article>
+      </section>
     </article>
   </section>
 </Layout>
