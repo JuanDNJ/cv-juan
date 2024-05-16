@@ -2,41 +2,111 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Header from "../components/Header.astro";
+import Badge from "../components/Badge.astro";
+import ca from "../assets/cat.png";
+const languages = [
+  {
+    name: "es",
+    icon: "",
+  },
+  {
+    name: "ca",
+    icon: ca,
+  },
+  {
+    name: "en",
+  },
+];
 ---
 
 <Layout title="Bienvenido a mi Curriculum Vitae">
-  <Header />
+  <section class="sticky top-0 bg-white">
+    <Badge languages={languages} />
+    <Header />
+  </section>
   <section class="max-w-7xl m-auto grid md:grid-cols-2 gap-10 p-4">
     <article class="">
-      <section class="flex flex-col py-4 gap-4">
+      <section class="flex flex-col gap-12">
         <div>
-          <h2>SOBRE MÍ</h2>
-          <p>
+          <h2 class="text-2xl font-bold">SOBRE MÍ</h2>
+          <p class="text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Repellendus, aliquam! Quidem ullam minima inventore eos repellat
             quae accusamus earum quod?
           </p>
         </div>
         <div>
-          <h2>DATOS PERSONALES</h2><p>
+          <h2 class="text-2xl font-bold">DATOS PERSONALES</h2>
+          <p class="text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Repellendus, aliquam! Quidem ullam minima inventore eos repellat
             quae accusamus earum quod?
           </p>
         </div>
         <div>
-          <h2>DATOS DE INTERES</h2><p>
+          <h2 class="text-2xl font-bold">DATOS DE INTERÉS</h2>
+          <p class="text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Repellendus, aliquam! Quidem ullam minima inventore eos repellat
             quae accusamus earum quod?
           </p>
         </div>
         <div>
-          <h2>CONTACTO</h2><p>
+          <h2 class="text-2xl font-bold">CONTACTO</h2>
+          <p class="text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Repellendus, aliquam! Quidem ullam minima inventore eos repellat
             quae accusamus earum quod?
           </p>
+        </div>
+        <div class="flex flex-col gap-4">
+          <h2 class="text-2xl font-bold">Lorem, ipsum dolor.</h2>
+          <div class="grid grid-cols-5 gap-3 text-sm font-bold text-center">
+            <span class="bg-green-400 rounded-md px-1 py-2">REACT</span>
+            <span class="bg-orange-400 rounded-md px-1 py-2">ASTRO</span>
+            <span class="bg-blue-400 rounded-md px-1 py-2">VUE</span>
+            <span class="bg-pink-400 rounded-md px-1 py-2">SVELTE</span>
+            <span class="bg-amber-400 rounded-md px-1 py-2">TAILWIND</span>
+            <span class="bg-emerald-400 rounded-md px-1 py-2">WC</span>
+            <span class="bg-slate-400 rounded-md px-1 py-2">JAVASCRIPT</span>
+            <span class="bg-indigo-400 rounded-md px-1 py-2">HTML</span>
+            <span class="bg-purple-400 rounded-md px-1 py-2">CSS</span>
+            <span class="bg-gray-400 rounded-md px-1 py-2">HTML</span>
+            <span class="bg-gray-400 rounded-md px-1 py-2">NODE</span>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4">
+          <h2 class="text-2xl font-bold">Lorem, ipsum dolor.</h2>
+          <section class="grid md:grid-cols-2 gap-4">
+            <Card
+              title="Lorem, ipsum dolor."
+              body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus, aliquam! Quidem ullam minima inventore eos repellat
+                quae accusamus earum quod?`}
+              href="/#"
+            />
+            <Card
+              title="Lorem, ipsum dolor."
+              body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus, aliquam! Quidem ullam minima inventore eos repellat
+                quae accusamus earum quod?`}
+              href="/#"
+            />
+            <Card
+              title="Lorem, ipsum dolor."
+              body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus, aliquam! Quidem ullam minima inventore eos repellat
+                quae accusamus earum quod?`}
+              href="/#"
+            />
+            <Card
+              title="Lorem, ipsum dolor."
+              body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus, aliquam! Quidem ullam minima inventore eos repellat
+                quae accusamus earum quod?`}
+              href="/#"
+            />
+          </section>
         </div>
       </section>
     </article>
@@ -95,9 +165,9 @@ import Header from "../components/Header.astro";
             </li>
           </ul>
         </article>
-        <article class="bg-stone-600 min-h-56">
-          <h2>FORMACIÓN REGLADA</h2>
-          <ul role="list" class="flex flex-col gap-4">
+        <article class="min-h-56">
+          <h2 class="text-2xl font-bold">FORMACION REGLADA</h2>
+          <ul role="list" class="flex flex-col gap-4 text-lg">
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
@@ -108,9 +178,9 @@ import Header from "../components/Header.astro";
             <li>Lorem ipsum dolor sit amet.</li>
           </ul>
         </article>
-        <article class="bg-stone-600 min-h-56">
-          <h2>FORMACIÓN NO REGLADA</h2>
-          <ul role="list" class="flex flex-col gap-4">
+        <article class="min-h-56">
+          <h2 class="text-2xl font-bold">FORMACIÓN NO REGLADA</h2>
+          <ul role="list" class="flex flex-col gap-4 text-lg">
             <li>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Distinctio, laudantium.
