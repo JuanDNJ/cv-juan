@@ -8,14 +8,17 @@ interface Props {
 const { href, title, body } = Astro.props;
 ---
 
-<article class="border p-4 rounded-md shadow-sm" title={title}>
-  <div class="hover:scale-75 transition-transform duration-300">
+<article
+  class="border p-4 rounded-md shadow-sm hover:shadow-xl transition-transform duration-300"
+  title={title}
+>
+  <div class="">
     <a href={href}>
       <h2 class="text-2xl font-bold">
         {title}
         <span>&rarr;</span>
       </h2>
-      <p>
+      <p class="text-sm md:text-lg">
         {body}
       </p>
     </a>

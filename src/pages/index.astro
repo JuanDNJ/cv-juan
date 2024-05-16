@@ -4,218 +4,192 @@ import Card from "../components/Card.astro";
 import Header from "../components/Header.astro";
 import Badge from "../components/Badge.astro";
 import ca from "../assets/cat.png";
-const languages = [
-  {
-    name: "es",
-    icon: "",
-  },
+import CatIcon from "../assets/cat.png";
+
+const dataLang = [
   {
     name: "ca",
-    icon: ca,
+    icon: "cat.png",
+  },
+  {
+    name: "es",
+    icon: "es.png",
   },
   {
     name: "en",
+    icon: "en.png",
   },
 ];
 ---
 
-<Layout title="Bienvenido a mi Curriculum Vitae">
-  <section class="sticky top-0 bg-white">
-    <Badge languages={languages} />
+<Layout title="CV Juan A. Valdivia">
+  <section class="sticky top-0 bg-white overflow-hidden">
+    <Badge languages={dataLang} />
     <Header />
   </section>
-  <section class="max-w-7xl m-auto grid md:grid-cols-2 gap-10 p-4">
-    <article class="">
-      <section class="flex flex-col gap-12">
+  <section class="max-w-5xl m-auto grid md:grid-cols-2 gap-10 p-4">
+    <section class="flex flex-col gap-12">
+      <div class="flex flex-col">
+        <h2 class="font__hamburger">SOBRE MÍ</h2>
         <div>
-          <h2 class="text-2xl font-bold">SOBRE MÍ</h2>
-          <p class="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, aliquam! Quidem ullam minima inventore eos repellat
-            quae accusamus earum quod?
+          <p class="text-sm md:text-lg">
+            Soy una persona muy responsable. Me gusta el trabajo en equipo.
+          </p>
+          <p class="text-sm md:text-lg">
+            Aunque mi experiencia en el ámbito de la informática, no es mucha,
+            puedo aportar ganas de aprender e interés. Me gusta el trabajo bien
+            hecho.
           </p>
         </div>
-        <div>
-          <h2 class="text-2xl font-bold">DATOS PERSONALES</h2>
-          <p class="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, aliquam! Quidem ullam minima inventore eos repellat
-            quae accusamus earum quod?
-          </p>
+      </div>
+      <div>
+        <h2 class="font__hamburger">DATOS PERSONALES</h2>
+        <ul role="list" class="flex flex-col text-sm md:text-lg">
+          <li class="">Nombre: Juan A. Valdivia Camacho</li>
+          <li class="">Fecha de nacimiento: 16/061975</li>
+          <li class="">España, Barcelona, Sant Boi de Llobergat 08830</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font__hamburger">DATOS DE INTERÉS</h2>
+        <ul role="list" class="flex flex-col gap-4 text-sm md:text-lg">
+          <li>Carné de conducir</li>
+          <li>Disponibilidad geográfica</li>
+          <li>Incorporación inmediata</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font__hamburger">CONTACTO</h2>
+        <span class="text-sm md:text-lg">640 282 614 / 936 409 497 </span>
+        <span class="text-sm md:text-lg">juandevnjv@gmail.com </span>
+      </div>
+      <div class="flex flex-col gap-4">
+        <h2 class="font__hamburger">Lorem, ipsum dolor.</h2>
+        <div
+          class="grid grid-cols-5 gap-3 text-sm md:text-lg font-bold text-center"
+        >
+          <span class="bg-green-400 rounded-md px-1 py-2">REACT</span>
+          <span class="bg-orange-400 rounded-md px-1 py-2">ASTRO</span>
+          <span class="bg-blue-400 rounded-md px-1 py-2">VUE</span>
+          <span class="bg-pink-400 rounded-md px-1 py-2">SVELTE</span>
+          <span class="bg-amber-400 rounded-md px-1 py-2">TAILWIND</span>
+          <span class="bg-emerald-400 rounded-md px-1 py-2">WC</span>
+          <span class="bg-slate-400 rounded-md px-1 py-2">JAVASCRIPT</span>
+          <span class="bg-indigo-400 rounded-md px-1 py-2">HTML</span>
+          <span class="bg-purple-400 rounded-md px-1 py-2">CSS</span>
+          <span class="bg-gray-400 rounded-md px-1 py-2">HTML</span>
+          <span class="bg-gray-400 rounded-md px-1 py-2">NODE</span>
         </div>
-        <div>
-          <h2 class="text-2xl font-bold">DATOS DE INTERÉS</h2>
-          <p class="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, aliquam! Quidem ullam minima inventore eos repellat
-            quae accusamus earum quod?
-          </p>
-        </div>
-        <div>
-          <h2 class="text-2xl font-bold">CONTACTO</h2>
-          <p class="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, aliquam! Quidem ullam minima inventore eos repellat
-            quae accusamus earum quod?
-          </p>
-        </div>
-        <div class="flex flex-col gap-4">
-          <h2 class="text-2xl font-bold">Lorem, ipsum dolor.</h2>
-          <div class="grid grid-cols-5 gap-3 text-sm font-bold text-center">
-            <span class="bg-green-400 rounded-md px-1 py-2">REACT</span>
-            <span class="bg-orange-400 rounded-md px-1 py-2">ASTRO</span>
-            <span class="bg-blue-400 rounded-md px-1 py-2">VUE</span>
-            <span class="bg-pink-400 rounded-md px-1 py-2">SVELTE</span>
-            <span class="bg-amber-400 rounded-md px-1 py-2">TAILWIND</span>
-            <span class="bg-emerald-400 rounded-md px-1 py-2">WC</span>
-            <span class="bg-slate-400 rounded-md px-1 py-2">JAVASCRIPT</span>
-            <span class="bg-indigo-400 rounded-md px-1 py-2">HTML</span>
-            <span class="bg-purple-400 rounded-md px-1 py-2">CSS</span>
-            <span class="bg-gray-400 rounded-md px-1 py-2">HTML</span>
-            <span class="bg-gray-400 rounded-md px-1 py-2">NODE</span>
-          </div>
-        </div>
-        <div class="flex flex-col gap-4">
-          <h2 class="text-2xl font-bold">Lorem, ipsum dolor.</h2>
-          <section class="grid md:grid-cols-2 gap-4">
-            <Card
-              title="Lorem, ipsum dolor."
-              body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus, aliquam! Quidem ullam minima inventore eos repellat
-                quae accusamus earum quod?`}
-              href="/#"
-            />
-            <Card
-              title="Lorem, ipsum dolor."
-              body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus, aliquam! Quidem ullam minima inventore eos repellat
-                quae accusamus earum quod?`}
-              href="/#"
-            />
-            <Card
-              title="Lorem, ipsum dolor."
-              body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus, aliquam! Quidem ullam minima inventore eos repellat
-                quae accusamus earum quod?`}
-              href="/#"
-            />
-            <Card
-              title="Lorem, ipsum dolor."
-              body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus, aliquam! Quidem ullam minima inventore eos repellat
-                quae accusamus earum quod?`}
-              href="/#"
-            />
-          </section>
-        </div>
-      </section>
-    </article>
-    <article class="">
-      <section class="flex flex-col gap-4 size-full">
-        <article class="min-h-56">
-          <h2 class="text-2xl font-bold">EXPERIENCIA PROFESIONAL</h2>
-          <ul role="list" class="flex flex-col gap-4 text-lg">
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
-              harum expedita perferendis numquam libero officiis iure molestiae
-              delectus, maxime nemo possimus earum. Repellendus!
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
-              harum expedita perferendis numquam libero officiis iure molestiae
-              delectus, maxime nemo possimus earum. Repellendus!
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
-              harum expedita perferendis numquam libero officiis iure molestiae
-              delectus, maxime nemo possimus earum. Repellendus!
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
-              harum expedita perferendis numquam libero officiis iure molestiae
-              delectus, maxime nemo possimus earum. Repellendus!
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
-              harum expedita perferendis numquam libero officiis iure molestiae
-              delectus, maxime nemo possimus earum. Repellendus!
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
-              harum expedita perferendis numquam libero officiis iure molestiae
-              delectus, maxime nemo possimus earum. Repellendus!
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
-              harum expedita perferendis numquam libero officiis iure molestiae
-              delectus, maxime nemo possimus earum. Repellendus!
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium, voluptas aut laboriosam ducimus fugit sit asperiores
-              harum expedita perferendis numquam libero officiis iure molestiae
-              delectus, maxime nemo possimus earum. Repellendus!
-            </li>
-          </ul>
-        </article>
-        <article class="min-h-56">
-          <h2 class="text-2xl font-bold">FORMACION REGLADA</h2>
-          <ul role="list" class="flex flex-col gap-4 text-lg">
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-          </ul>
-        </article>
-        <article class="min-h-56">
-          <h2 class="text-2xl font-bold">FORMACIÓN NO REGLADA</h2>
-          <ul role="list" class="flex flex-col gap-4 text-lg">
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Distinctio, laudantium.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Distinctio, laudantium.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Distinctio, laudantium.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Distinctio, laudantium.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Distinctio, laudantium.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Distinctio, laudantium.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Distinctio, laudantium.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Distinctio, laudantium.
-            </li>
-          </ul>
-        </article>
-      </section>
-    </article>
+      </div>
+      <div class="flex flex-col gap-4">
+        <h2 class="font__hamburger">Lorem, ipsum dolor.</h2>
+        <section class="grid md:grid-cols-2 gap-4">
+          <Card
+            title="Lorem, ipsum dolor."
+            body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.`}
+            href="/#"
+          />
+          <Card
+            title="Lorem, ipsum dolor."
+            body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.`}
+            href="/#"
+          />
+          <Card
+            title="Lorem, ipsum dolor."
+            body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.`}
+            href="/#"
+          />
+          <Card
+            title="Lorem, ipsum dolor."
+            body={`Lorem ipsum dolor sit amet consectetur adipisicing elit.`}
+            href="/#"
+          />
+        </section>
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-6 size-full">
+      <article class="min-h-20">
+        <h2 class="font__hamburger">EXPERIENCIA PROFESIONAL</h2>
+        <ul role="list" class="flex flex-col gap-4 text-sm md:text-xl">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            est.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            est.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            est.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            est.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            est.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            est.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            est.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            est.
+          </li>
+        </ul>
+      </article>
+      <article class="min-h-20">
+        <h2 class="font__hamburger font-title">FORMACION REGLADA</h2>
+        <ul role="list" class="flex flex-col gap-4 text-sm md:text-lg">
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+      </article>
+      <article class="min-h-20">
+        <h2 class="font__hamburger">FORMACIÓN NO REGLADA</h2>
+        <ul role="list" class="flex flex-col gap-4 text-sm md:text-lg">
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Distinctio, laudantium.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Distinctio, laudantium.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Distinctio, laudantium.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Distinctio, laudantium.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Distinctio, laudantium.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Distinctio, laudantium.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Distinctio, laudantium.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Distinctio, laudantium.
+          </li>
+        </ul>
+      </article>
+    </section>
   </section>
 </Layout>

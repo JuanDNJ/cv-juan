@@ -23,6 +23,18 @@ const { title } = Astro.props;
   </body>
 </html>
 <style is:global>
+  @font-face {
+    font-family: "HamburgerHeaven";
+    src:
+      local("HamburgerHeaven"),
+      url("fonts/HamburgerHeaven.woff2") format("woff2"),
+      url("fonts/HamburgerHeaven.woff") format("woff"),
+      url("fonts/HamburgerHeaven.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
   :root {
     --accent: 136, 58, 234;
     --accent-light: 224, 204, 250;
@@ -34,14 +46,29 @@ const { title } = Astro.props;
       white 60%
     );
   }
-  html {
+  html,
+  body {
     font-family: system-ui, sans-serif;
     background: #13151a;
+    letter-spacing: 1.75px;
     background-size: 224px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "HamburgerHeaven";
+    @apply font-bold;
+  }
+
+  h2.font__hamburger {
+    @apply text-2xl;
   }
   main {
     margin: auto;
-    color: #333;
+    color: #5c5b5b;
     font-size: 20px;
     line-height: 1.6;
     background-color: rgb(255, 255, 255);

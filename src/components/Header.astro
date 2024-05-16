@@ -1,37 +1,38 @@
----
-import GitHubMark from "../assets/github-mark/mark/github-mark-white.svg";
-import Linkeding from "../assets/LinkedIn_icon.png";
-import { Image } from "astro:assets";
----
-
 <header class="relative">
   <div
-    class="absolute bg-stone-900 left-0 top-4 md:top-10 w-full h-[56px] md:h-[96px] -z-0"
+    class="absolute bg-stone-900 left-0 top-5 md:top-10 w-full h-[72px] md:h-[96px] z-0"
   >
   </div>
   <section
-    class="max-w-7xl m-auto py-2 px-4 md:p-6 flex items-center justify-between"
+    class="max-w-5xl m-auto pt-2 px-4 md:p-6 flex items-center justify-between"
   >
     <article class="flex items-center gap-4">
       <img
-        class="w-[72px] h-[72px] md:w-[128px] md:h-[128px] aspect-square object-cover bg-red-600 rounded-xl z-10 text-sm border-2 border-stone-700"
+        class="w-[96px] h-[96px] md:w-[128px] md:h-[128px] aspect-square object-cover bg-red-600 rounded-xl z-10 text-sm border-2 border-stone-700"
         src="https://avatars.githubusercontent.com/u/132897973?s=400&u=6c452a26d13295f2c6139e3c94c2bb7862772197&v=4"
         alt="Juan Antonio Valdivia"
       />
-      <h1 class="text-stone-100 text-sm md:text-2xl font-bold z-10">
-        Juan Antonio Valdivia Camacho
+      <h1
+        class="flex flex-col text-stone-100 font-bold z-10"
+        title="Juan Antonio Valdivia Camacho"
+      >
+        <span class="text-[1.6rem] md:text-3xl">Juan A</span>
+        <span class="text-[.9rem] md:text-xl">Valdivia Camacho </span>
       </h1>
     </article>
     <article class="z-10 flex gap-2">
-      <a href="http://" title="Perfil GitHub">
-        <Image src={GitHubMark} alt="Perfil GitHub" width="32" height="32" />
+      <a href="#" title="Perfil GitHub">
+        <img
+          src={`./images/github-mark-white.svg`}
+          alt="Perfil GitHub"
+          class="w-8 h-8 md"
+        />
       </a>
-      <a href="http://" title="Perfil Linkeding"
-        ><Image
-          src={Linkeding}
+      <a href="#" title="Perfil Linkeding"
+        ><img
+          src={`./images/LinkedIn_icon.png`}
           alt="Perfil Linkeding"
-          width="32"
-          height="32"
+          class="w-8 h-8"
         /></a
       >
     </article>

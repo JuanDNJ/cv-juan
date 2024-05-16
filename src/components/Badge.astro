@@ -1,26 +1,31 @@
 ---
+import ThemeMode from "./ThemeMode.astro";
+
 interface Props {
   languages: any[];
 }
 const { languages } = Astro.props;
 
-import ca from "../assets/cat.png";
+const cahngeIcon = () => {
+  languages;
+};
 ---
 
-<section class="py-2">
-  <article class="max-w-7xl m-auto flex gap-2 items-center justify-end px-6">
+<article class="max-w-5xl m-auto px-4 md:px-6 flex gap-4">
+  <ThemeMode />
+  <div class="flex gap-2 items-center justify-end">
     {
       languages.map((lang, index) => (
-        <button
-          type="button"
-          title={lang.name}
-          class={`rounded-full 
-            
-            w-8 h-8 flex items-center justify-center`}
-        >
-          <img src={lang.icon} alt="" />
+        <button type="button" title={lang.name} class="w-8 h-8">
+          <img
+            src={`${lang.icon}`}
+            alt={`Icon ${lang.icon}`}
+            width={32}
+            height={32}
+            class="rounded-full"
+          />
         </button>
       ))
     }
-  </article>
-</section>
+  </div>
+</article>
