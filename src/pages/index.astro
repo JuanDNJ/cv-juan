@@ -3,33 +3,17 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Header from "../components/Header.astro";
 import Badge from "../components/Badge.astro";
-import ca from "../assets/cat.png";
-import CatIcon from "../assets/cat.png";
-
-const dataLang = [
-  {
-    name: "ca",
-    icon: "cat.png",
-  },
-  {
-    name: "es",
-    icon: "es.png",
-  },
-  {
-    name: "en",
-    icon: "en.png",
-  },
-];
+import { LANGUAGES } from "../utils";
 ---
 
 <Layout title="CV Juan A. Valdivia">
   <section class="sticky top-0 bg-white overflow-hidden">
-    <Badge languages={dataLang} />
+    <Badge languages={LANGUAGES} />
     <Header />
   </section>
   <section class="max-w-5xl m-auto grid md:grid-cols-2 gap-10 p-4">
     <section class="flex flex-col gap-12">
-      <div class="flex flex-col">
+      <article class="flex flex-col">
         <h2 class="font__hamburger">SOBRE MÍ</h2>
         <div>
           <p class="text-sm md:text-lg">
@@ -41,29 +25,29 @@ const dataLang = [
             hecho.
           </p>
         </div>
-      </div>
-      <div>
+      </article>
+      <article>
         <h2 class="font__hamburger">DATOS PERSONALES</h2>
         <ul role="list" class="flex flex-col text-sm md:text-lg">
           <li class="">Nombre: Juan A. Valdivia Camacho</li>
           <li class="">Fecha de nacimiento: 16/061975</li>
           <li class="">España, Barcelona, Sant Boi de Llobergat 08830</li>
         </ul>
-      </div>
-      <div>
+      </article>
+      <article>
         <h2 class="font__hamburger">DATOS DE INTERÉS</h2>
         <ul role="list" class="flex flex-col gap-4 text-sm md:text-lg">
           <li>Carné de conducir</li>
           <li>Disponibilidad geográfica</li>
           <li>Incorporación inmediata</li>
         </ul>
-      </div>
-      <div>
+      </article>
+      <article>
         <h2 class="font__hamburger">CONTACTO</h2>
         <span class="text-sm md:text-lg">640 282 614 / 936 409 497 </span>
         <span class="text-sm md:text-lg">juandevnjv@gmail.com </span>
-      </div>
-      <div class="flex flex-col gap-4">
+      </article>
+      <article class="flex flex-col gap-4">
         <h2 class="font__hamburger">Lorem, ipsum dolor.</h2>
         <div
           class="grid grid-cols-5 gap-3 text-sm md:text-lg font-bold text-center"
@@ -80,8 +64,8 @@ const dataLang = [
           <span class="bg-gray-400 rounded-md px-1 py-2">HTML</span>
           <span class="bg-gray-400 rounded-md px-1 py-2">NODE</span>
         </div>
-      </div>
-      <div class="flex flex-col gap-4">
+      </article>
+      <article class="flex flex-col gap-4">
         <h2 class="font__hamburger">Lorem, ipsum dolor.</h2>
         <section class="grid md:grid-cols-2 gap-4">
           <Card
@@ -105,7 +89,7 @@ const dataLang = [
             href="/#"
           />
         </section>
-      </div>
+      </article>
     </section>
 
     <section class="flex flex-col gap-6 size-full">
