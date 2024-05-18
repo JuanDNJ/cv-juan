@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "HamburgerHeaven";
+  src: local("HamburgerHeaven"),
+    url("./fonts/HamburgerHeaven.woff2") format("woff2"),
+    url("./fonts/HamburgerHeaven.woff") format("woff"),
+    url("./fonts/HamburgerHeaven.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
