@@ -23,8 +23,9 @@
     "personalInformation": "dades personals",
     "dataOfInterest": {
         "title": "dades d'interès",
-        "item1": "Introduction to Programming. On-Line Training, taught by Universitas Telefónica. 30 hours, 2017",
-        "item2": "Development in HTML5, CSS AND JAVASCRIPT OF WEB APPS including Mobile Firefox OS 3rd Generation. On-Line Training, taught by the Polytechnic University of Madrid. 50 hours, 2015."
+        "item1": "carnet de conduir",
+        "item2": "disponibilitat geogràfica",
+        "item3": "incorporació immediata"
     },
     "skills": "habilitats",
     "profile": "perfil",
