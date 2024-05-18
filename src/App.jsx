@@ -37,11 +37,20 @@ export default function App() {
               </Card>
               <Card title="contact">
                 <FlexCol>
-                  <span>{t("contacts.email")}</span>
                   <span>
-                    {t("phones.phone1")} &nbsp; - &nbsp; {t("phones.phone2")}
+                    Email:&nbsp;
+                    <a href={`mailto:${t("contacts.email")}`}>
+                      {t("contacts.email")}
+                    </a>
                   </span>
-                  <span>{t("contacts.address")}</span>
+                  <span>
+                    Phones: {t("phones.phone1")} &nbsp; - &nbsp;{" "}
+                    {t("phones.phone2")}
+                  </span>
+                  <span>Address: {t("contacts.address")}</span>
+                  <span>
+                    Web: <a href={t("contacts.web")}>{t("contacts.web")}</a>
+                  </span>
                 </FlexCol>
               </Card>
               <Card title="dataOfInterest.title">
