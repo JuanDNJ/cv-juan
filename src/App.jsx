@@ -17,7 +17,7 @@ export default function App() {
     <Fragment>
       <Header />
       <Container>
-        <Content className="grid md:grid-cols-2 py-4 gap-4">
+        <Content className="grid md:grid-cols-2 gap-4">
           <Column className="py-4">
             <FlexCol addclass="gap-4">
               <Card title="aboutMe.title">
