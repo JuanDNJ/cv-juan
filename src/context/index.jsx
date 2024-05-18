@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { useCurrentLanguage } from "../assets/hooks/currentLanguage";
+import { useCurrentLanguage } from "../hooks/currentLanguage";
 
 export const Ctx = createContext();
 

@@ -1,15 +1,17 @@
 import { Fragment } from "react";
-import Card from "./components/Card";
-import Container from "./components/Container";
-import Header from "./components/Header";
-import Content from "./components/Content";
-import Column from "./components/Column";
-import Text from "./components/Text";
-import UnOrderedList from "./components/UnOrderedList";
-import ItemList from "./components/ItemList";
-import FlexCol from "./components/FlexCol";
 import { useTranslation } from "react-i18next";
-import { firstCharAtToUpperCase } from "./utils";
+import { firstCharAtToUpperCase, technologicalSkills } from "./utils";
+import {
+  Card,
+  Container,
+  Header,
+  Content,
+  Column,
+  Text,
+  UnOrderedList,
+  ItemList,
+  FlexCol,
+} from "./components";
 
 export default function App() {
   const { t } = useTranslation();
@@ -27,7 +29,7 @@ export default function App() {
               <Card title="personalInformation">
                 <FlexCol>
                   <span>
-                    {firstCharAtToUpperCase(t("name"))}: {t("firstName")}{" "}
+                    {firstCharAtToUpperCase(t("name"))}: {t("firstName")}
                     {t("surname")}
                   </span>
                   <span>
@@ -61,15 +63,25 @@ export default function App() {
                 </UnOrderedList>
               </Card>
               <Card title="skills">
-                <Text>
-                  Excepteur aute deserunt aliqua qui ex commodo laboris amet. Ad
-                  ipsum ex deserunt consectetur nisi laboris exercitation. Do
-                  velit officia excepteur do ex nostrud quis fugiat. Incididunt
-                  eu tempor incididunt commodo mollit non mollit non culpa dolor
-                  amet. Nostrud enim et nulla est dolor labore cupidatat irure
-                  Lorem. Quis incididunt ad ea incididunt ea veniam qui eu irure
-                  aliqua. Id nostrud mollit tempor id nulla fugiat eu.
-                </Text>
+                <UnOrderedList addclass="grid grid-cols-5 md:grid-cols-8 gap-4 py-4">
+                  {technologicalSkills.map((tech) => (
+                    <a
+                      target="_blank"
+                      href={tech.href}
+                      title={tech.name}
+                      key={tech.id}
+                    >
+                      {tech.Component({
+                        fill:
+                          (tech.fill && tech.fill) ||
+                          (tech.stroke && tech.stroke) ||
+                          "",
+                        height: "100%",
+                        width: "100%",
+                      })}
+                    </a>
+                  ))}
+                </UnOrderedList>
               </Card>
             </FlexCol>
           </Column>

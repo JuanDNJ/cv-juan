@@ -1,3 +1,4 @@
+import { technologicalSkills } from "./technologicalSkills";
 const languages = [
   {
     id: 1,
@@ -38,4 +39,9 @@ const firstCharAtToUpperCase = (string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
-export { languages, socialNetWork, firstCharAtToUpperCase };
+export {
+  languages,
+  socialNetWork,
+  technologicalSkills,
+  firstCharAtToUpperCase,
+};
