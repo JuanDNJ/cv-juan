@@ -7,7 +7,7 @@ import Text from "./Text";
 import UnOrderedList from "./UnOrderedList";
 import ItemList from "./ItemList";
 import FlexCol from "./FlexCol";
-
+import PdfDownLoad from "./PdfDownLoad";
 export {
   Card,
   Container,
@@ -18,4 +18,5 @@ export {
   UnOrderedList,
   ItemList,
   FlexCol,
+  PdfDownLoad,
 };

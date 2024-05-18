@@ -15,6 +15,7 @@ import Tailwind from "./Tailwind";
 import Vite from "./Vite";
 import Vue from "./Vue";
 import WebComponents from "./WebComponents";
+import DownLoadPDF from "./DownLoadPDF";
 
 export {
   Astro,
@@ -34,4 +35,5 @@ export {
   Vite,
   Vue,
   WebComponents,
+  DownLoadPDF,
 };

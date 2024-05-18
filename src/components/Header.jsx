@@ -3,7 +3,7 @@ import Content from "./Content";
 import Languages from "./Languages";
 import UserBadget from "./UserBadget";
 import SocialNetWork from "./SocialNetWork";
-
+import CardDownload from "./CardDownload";
 export default function Header() {
   return (
     <header className="relative  z-10">
@@ -11,6 +11,7 @@ export default function Header() {
         <Container addclass="h-full">
           <Content className="flex justify-end h-full">
             <Languages />
+            <CardDownload />
           </Content>
         </Container>
       </section>

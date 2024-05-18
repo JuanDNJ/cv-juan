@@ -1,6 +1,6 @@
 # CV Juan A. Valdivia Camacho
 
-![cv](images/png/image.png)
+![cv](./public/images/png/image.png)
 
 ## Tecnologías usadas
 
@@ -11,3 +11,4 @@
 - i18next-browser-languagedetector
 - i18next-http-backend
 - react-i18next
+- file-saver
