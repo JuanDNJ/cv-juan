@@ -1,0 +1,56 @@
+{
+    "spanish": "español",
+    "inglish": "inglés",
+    "catalonia": "catalan",
+    "firstName": "Juan Antonio",
+    "surname": "Valdivia Camacho",
+    "dateOfBirth": "16/06/1975",
+    "phones": {
+        "phone1": "+34 640 282 614",
+        "phone2": "+34 936 409 497"
+    },
+    "contacts": {
+        "email": "juandevnjv@gmail.com",
+        "address": "España, Barcelona, Sant Boi de Llobrebat, 08830",
+        "web": ""
+    },
+    "aboutMe": {
+        "title": "acerca de mí",
+        "item1": "Soy una persona muy responsable, me gusta el trabajo en equipo y compartir los pocos conocimientos que tengo incondicionalmente.",
+        "item2": "Aunque mi experiencia profesional en el ámbito de la informática, no es mucha, puedo aportar ganas de aprender e interés. Me gusta el trabajo bien hecho."
+    },
+    "name": "nombre",
+    "birthdate": "fecha de nacimiento",
+    "personalInformation": "datos personales",
+    "dataOfInterest": {
+        "title": "datos de interés",
+        "item1": "carné de conducir",
+        "item2": "disponibilidad geográfica",
+        "item3": "incorporación inmediata"
+    },
+    "skills": "habilidades",
+    "profile": "perfil",
+    "contact": "contacto",
+    "training": {
+        "title": "formación",
+        "item1": "Introducción a la Programación. Formación On-Line, impartida por Universitas Telefónica. 30 horas, 2017",
+        "item2": "Desarrollo en HTML5, CSS Y JAVASCRIPT DE WEB APPS incluido Móviles Firefox OS 3ª Generación. Formación On-Line, impartida por Universidad Politécnica de Madrid. 50 horas, 2015.",
+        "item3": "Creación y Retoque de imágenes con software Gimp. Formación On-Line, impartida por Universidad de Málaga. 27 horas, 2014",
+        "item4": "Web con XHTML y CSS. Formación Presencial, impartida por Barcelona Activa. 3 horas, 2013",
+        "item5": "Principios de Maquetación Web. Formación Presencial, impartida por Barcelona Activa. 3 horas, 2013",
+        "item6": "Introducción a CSS3. Formación Presencial, impartida por Barcelona Activa. 3 horas, 2013",
+        "item7": "Dreamweaver: Diseña e Integra Webs con el editor HTML. Formación Presencial, impartida por Barcelona Activa. Duración: 6 horas, 2013",
+        "item8": "Técnico en Comunicación y Redes, Mantenimiento de Equipos Informáticos. Formación Presencial, impartida por www.espai.es. Duración: 200 horas (teórico-prácticas), 2013",
+        "item9": "Curso de Albañilería. Formación Presencial, impartido por Instituto Gaudí. Duración: 6 horas, 2011",
+        "item10": "Recurso Preventivo. Sector Construcción. Formación Presencial, impartido por Instituto Gaudí. Duración: 60 horas, 2008"
+    },
+    "professionalExperiencie": {
+        "title": "experiencia profesional",
+        "item1": "INSTALACIONES Y MONTAJES HURIK. Montaje de Ascensores. Puesto de trabajo: Peón. (Junio - Agosto / 2019)",
+        "item2": "CONSTRUCCIONES NOELBA, SL. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Noviembre 2015 – Septiembre 2018)",
+        "item3": "SP3 OBRAS Y SERVICIOS DE REHABILITACIÓN. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Abril 2008 – Mayo 2009)",
+        "item4": "AQUA TERRA GESTIÓN INTEGRAL. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Septiembre 2007 – Abril 2008)",
+        "item5": "FONT HÀBITAT. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Octubre 2000 – Agost 2007)",
+        "item6": "CAPRABO. Supermercats. Lloc de treball: Reposador/Supervisor. (Juliol 1996 – Agost 1999)"
+    }
+}

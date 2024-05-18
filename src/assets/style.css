@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "HamburgerHeaven";
+    src: local("HamburgerHeaven"),
+      url("fonts/HamburgerHeaven.woff2") format("woff2"),
+      url("fonts/HamburgerHeaven.woff") format("woff"),
+      url("fonts/HamburgerHeaven.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+:root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --color: #242424;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+html,
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color);
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  display: grid;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.photo__cv {
+  @apply w-20 h-20 md:w-28 md:h-32 object-cover text-sm bg-stone-700 rounded-md border-2 border-stone-600;
+}
+
+.decoration::before {
+  content: "";
+  @apply absolute left-0 top-11 md:top-12 w-full h-16 md:h-24 bg-stone-800 -z-10;
+}
