@@ -27,7 +27,7 @@ export const technologicalSkills = [
     id: 2,
     href: "https://developer.mozilla.org/en-US/docs/Web/API/Web_components",
     name: "WebComponents",
-    fill: "black",
+    fill: "#CFE627",
     Component: (props) => WebComponents(props),
   },
   {
@@ -88,7 +88,7 @@ export const technologicalSkills = [
     id: 11,
     href: "https://nodejs.org/en/",
     name: "Node",
-    stroke: "#7EC727",
+    fill: "#7EC727",
     Component: (props) => Node(props),
   },
   {

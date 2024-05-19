@@ -5,6 +5,10 @@
     "firstName": "Juan Antonio",
     "surname": "Valdivia Camacho",
     "dateOfBirth": "16/06/1975",
+    "email": "correu electrònic",
+    "phone": "telèfon",
+    "address": "adreça",
+    "download":"descarregar",
     "phones": {
         "phone1": "+34 640 282 614",
         "phone2": "+34 936 409 497"

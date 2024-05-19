@@ -4,6 +4,10 @@
     "catalonia": "catalan",
     "firstName": "Juan Antonio",
     "surname": "Valdivia Camacho",
+    "email": "email",
+    "phone": "phone",
+    "address": "address",
+    "download":"download",
     "phones": {
         "phone1": "+34 640 282 614",
         "phone2": "+34 936 409 497"

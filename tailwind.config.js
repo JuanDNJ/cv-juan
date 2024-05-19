@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        title: "HamburgerHeaven",
+        hamburger: "HamburgerHeaven",
+        roboto: "Roboto",
+        raleway: "Raleway",
       },
     },
   },

@@ -6,10 +6,97 @@
   @font-face {
     font-family: "HamburgerHeaven";
     src: local("HamburgerHeaven"),
-      url("/fonts/HamburgerHeaven.woff2") format("woff2"),
-      url("/fonts/HamburgerHeaven.woff") format("woff"),
-      url("/fonts/HamburgerHeaven.ttf") format("truetype");
+      url("./fonts/HamburgerHeaven.woff2") format("woff2"),
+      url("./fonts/HamburgerHeaven.woff") format("woff"),
+      url("./fonts/HamburgerHeaven.ttf") format("truetype");
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Roboto Flex";
+    src: local("Roboto Flex Regular"), local("RobotoFlex-Regular"),
+      url("./fonts/RobotoFlex-Regular.woff2") format("woff2"),
+      url("./fonts/RobotoFlex-Regular.woff") format("woff"),
+      url("./fonts/RobotoFlex-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Roboto Flex";
+    src: local("Roboto Flex Regular"), local("RobotoFlex-Regular"),
+      url("./fonts/RobotoFlex-Regular_1.woff2") format("woff2"),
+      url("./fonts/RobotoFlex-Regular_1.woff") format("woff"),
+      url("./fonts/RobotoFlex-Regular_1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    src: local("Raleway Thin"), local("Raleway-Thin"),
+      url("./fonts/Raleway-Thin.woff2") format("woff2"),
+      url("./fonts/Raleway-Thin.woff") format("woff"),
+      url("./fonts/Raleway-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    src: local("Raleway Thin Italic"), local("Raleway-ThinItalic"),
+      url("./fonts/Raleway-ThinItalic.woff2") format("woff2"),
+      url("./fonts/Raleway-ThinItalic.woff") format("woff"),
+      url("./fonts/Raleway-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    src: local("Raleway Regular"), local("Raleway-Regular"),
+      url("./fonts/Raleway-Regular.woff2") format("woff2"),
+      url("./fonts/Raleway-Regular.woff") format("woff"),
+      url("./fonts/Raleway-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    src: local("Raleway Thin"), local("Raleway-Thin"),
+      url("./fonts/Raleway-Thin_1.woff2") format("woff2"),
+      url("./fonts/Raleway-Thin_1.woff") format("woff"),
+      url("./fonts/Raleway-Thin_1.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    src: local("Raleway Bold"), local("Raleway-Bold"),
+      url("./fonts/Raleway-Bold.woff2") format("woff2"),
+      url("./fonts/Raleway-Bold.woff") format("woff"),
+      url("./fonts/Raleway-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    src: local("Raleway Light"), local("Raleway-Light"),
+      url("./fonts/Raleway-Light.woff2") format("woff2"),
+      url("./fonts/Raleway-Light.woff") format("woff"),
+      url("./fonts/Raleway-Light.ttf") format("truetype");
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
   }
@@ -18,27 +105,29 @@
 :root {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --color: #242424;
+  --color: #616161;
 }
 
 a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
+  padding: 0;
+  margin: 0;
 }
 a:hover {
-  color: #535bf2;
+  color: #353dd6;
 }
 
 html,
 body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Raleway", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: var(--color);
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(255, 255, 255, 0.945);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -48,12 +137,28 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-
+h1 {
+  @apply font-roboto text-white p-4 font-extrabold;
+}
+h2 {
+  @apply font-raleway text-[#4d4d4d]  text-[1.6em] md:text-2xl pb-1 font-extrabold;
+}
+span,
+strong {
+  @apply text-sm md:text-[1em] pb-1;
+}
+.name,
+.surname {
+  @apply text-lg md:text-3xl pb-0;
+}
+.surname {
+  @apply text-sm md:text-2xl pb-0;
+}
 .photo__cv {
-  @apply w-20 h-20 md:w-28 md:h-32 object-cover text-sm bg-stone-700 rounded-md border-2 border-stone-600;
+  @apply w-20 h-24 md:w-28 md:h-32 object-cover text-sm bg-stone-700 rounded-md border-2 border-stone-600;
 }
 
 .decoration::before {
   content: "";
-  @apply absolute left-0 top-11 md:top-12 w-full h-16 md:h-24 bg-stone-800 -z-10;
+  @apply absolute left-0 top-12 md:top-12 w-full h-16 md:h-24 bg-[#3b3b3b] -z-10;
 }

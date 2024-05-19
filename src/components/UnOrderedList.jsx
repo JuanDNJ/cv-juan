@@ -3,7 +3,10 @@ export default function UnOrderedList(props) {
   return (
     <ul
       role="list"
-      className={`${(addclass && addclass) || "list-disc list-inside py-2"} `}
+      className={`${
+        (addclass && addclass) ||
+        "text-sm md:text-[1em] list-disc list-inside py-2"
+      } `}
     >
       {children}
     </ul>

@@ -5,6 +5,10 @@
     "firstName": "Juan Antonio",
     "surname": "Valdivia Camacho",
     "dateOfBirth": "16/06/1975",
+    "email": "correo electrónico",
+    "phone": "teléfono",
+    "address": "dirección",
+    "download": "descargar",
     "phones": {
         "phone1": "+34 640 282 614",
         "phone2": "+34 936 409 497"
@@ -24,7 +28,7 @@
     "personalInformation": "datos personales",
     "dataOfInterest": {
         "title": "datos de interés",
-        "item1": "carné de conducir",
+        "item1": "carnét de conducir",
         "item2": "disponibilidad geográfica",
         "item3": "incorporación inmediata"
     },

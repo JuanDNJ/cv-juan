@@ -12,6 +12,10 @@ import {
   ItemList,
   FlexCol,
 } from "./components";
+import Email from "./components/svg/Email";
+import Phone from "./components/svg/Phone";
+import Address from "./components/svg/Address";
+import WebAddress from "./components/svg/WebAddress";
 
 export default function App() {
   const { t } = useTranslation();
@@ -29,30 +33,55 @@ export default function App() {
               <Card title="personalInformation">
                 <FlexCol>
                   <span>
-                    {firstCharAtToUpperCase(t("name"))}: {t("firstName")}
+                    <strong>{firstCharAtToUpperCase(t("name"))}</strong>:{" "}
+                    {t("firstName")}
                     {t("surname")}
                   </span>
                   <span>
-                    {firstCharAtToUpperCase(t("birthdate"))}: {t("dateOfBirth")}
+                    <strong>{firstCharAtToUpperCase(t("birthdate"))}</strong>:{" "}
+                    {t("dateOfBirth")}
                   </span>
                 </FlexCol>
               </Card>
               <Card title="contact">
                 <FlexCol>
-                  <span>
-                    Email:&nbsp;
-                    <a href={`mailto:${t("contacts.email")}`}>
-                      {t("contacts.email")}
-                    </a>
-                  </span>
-                  <span>
-                    Phones: {t("phones.phone1")} &nbsp; - &nbsp;{" "}
+                  <a
+                    className=" hover:underline"
+                    href={`mailto:${t("contacts.email")}`}
+                    title={firstCharAtToUpperCase(t("email"))}
+                  >
+                    <div className="flex place-items-center gap-2">
+                      <Email height="1.5em" width="1.5em" fill="#333" />
+                      <span>{t("contacts.email")} </span>
+                    </div>
+                  </a>
+
+                  <span
+                    className="flex place-items-center gap-1"
+                    title={firstCharAtToUpperCase(t("phone"))}
+                  >
+                    <Phone height="1.5em" width="1.5em" fill="green" />
+                    {t("phones.phone1")}&nbsp;, &nbsp;
                     {t("phones.phone2")}
                   </span>
-                  <span>Address: {t("contacts.address")}</span>
-                  <span>
-                    Web: <a href={t("contacts.web")}>{t("contacts.web")}</a>
+                  <span
+                    className="flex place-items-center gap-1"
+                    title={firstCharAtToUpperCase(t("address"))}
+                  >
+                    <Address height="1.5em" width="1.5em" fill="red" />
+                    {t("contacts.address")}
                   </span>
+
+                  <a
+                    className="hover:underline"
+                    title={firstCharAtToUpperCase(t("web"))}
+                    href={t("contacts.web")}
+                  >
+                    <div className="flex place-items-center gap-2">
+                      <WebAddress fill="skyblue" height="1.5em" width="1.5em" />
+                      <span>{t("contacts.web")} </span>
+                    </div>
+                  </a>
                 </FlexCol>
               </Card>
               <Card title="dataOfInterest.title">
@@ -70,6 +99,7 @@ export default function App() {
                       href={tech.href}
                       title={tech.name}
                       key={tech.id}
+                      className="hover:scale-110 active:scale-95 transition-transform duration-300"
                     >
                       {tech.Component({
                         fill:
