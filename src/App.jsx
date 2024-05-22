@@ -125,6 +125,8 @@ export default function App() {
                   <ItemList text="professionalExperiencie.item4" />
                   <ItemList text="professionalExperiencie.item5" />
                   <ItemList text="professionalExperiencie.item6" />
+                  <ItemList text="professionalExperiencie.item7" />
+                  <ItemList text="professionalExperiencie.item8" />
                 </UnOrderedList>
               </Card>
               <Card title="training.title">
@@ -139,6 +141,7 @@ export default function App() {
                   <ItemList text="training.item8" />
                   <ItemList text="training.item9" />
                   <ItemList text="training.item10" />
+                  <ItemList text="training.item11" />
                 </UnOrderedList>
               </Card>
             </FlexCol>

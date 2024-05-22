@@ -8,7 +8,7 @@
     "email": "correu electrònic",
     "phone": "telèfon",
     "address": "adreça",
-    "download":"descarregar",
+    "download": "descarregar",
     "phones": {
         "phone1": "+34 640 282 614",
         "phone2": "+34 936 409 497"
@@ -46,15 +46,18 @@
         "item7": "Dreamweaver: Dissenya i integra Webs amb l'editor HTML. Formació Presencial, impartida per Barcelona Activa. Durada: 6 hores, 2013",
         "item8": "Tècnic en Comunicació i Xarxes, Manteniment d´Equips Informàtics. Formació Presencial, impartida per www.espai.es. Durada: 200 hores (teòric-pràctiques), 2013",
         "item9": "Curs d'Albanyileria. Formació Presencial, impartit per Institut Gaudí. Durada: 6 hores, 2011",
-        "item10": "Recurs Preventiu. Sector Construcció. Formació Presencial, impartit per Institut Gaudí. Durada: 60 hores, 2008"
+        "item10": "Recurs Preventiu. Sector Construcció. Formació Presencial, impartit per Institut Gaudí. Durada: 60 hores, 2008",
+        "item11": "Graduat Escolar"
     },
     "professionalExperiencie": {
         "title": "experiència professional",
-        "item1": "INSTAL·LACIONS I MUNTATGES HURIK. Muntatge d´Ascensors. Lloc de treball: Peó. (Juny - Agost / 2019)",
-        "item2": "CONSTRUCCIONS NOELBA, SL. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Novembre 2015 – Setembre 2018)",
-        "item3": "SP3 OBRES I SERVEIS DE REHABILITACIÓ. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Abril 2008 – Maig 2009)",
-        "item4": "AQUA TERRA GESTIÓ INTEGRAL. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Setembre 2007 – Abril 2008)",
-        "item5": "FONT HABITAT. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Octubre 2000 – Agosto 2007)",
-        "item6": "CAPRABO. Supermercados. Puesto de trabajo: Reponedor / Supervisor. (Julio 1996 – Agosto 1999)"
+        "item1": "Construccions i Projectes FRAJOMI XXI. Empresa de construcció. Càrrec de treball: Oficial 1r. (Juny 2020 – Abril 2023)",
+        "item2": "AMAZON. Càrrec de treball: Piking Job. (Novembre 2019 – Febrer 2020)",
+        "item3": "INSTAL·LACIONS I MUNTATGES HURIK. Muntatge d´Ascensors. Lloc de treball: Peó. (Juny - Agost / 2019)",
+        "item4": "CONSTRUCCIONS NOELBA, SL. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Novembre 2015 – Setembre 2018)",
+        "item5": "SP3 OBRES I SERVEIS DE REHABILITACIÓ. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Abril 2008 – Maig 2009)",
+        "item6": "AQUA TERRA GESTIÓ INTEGRAL. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Setembre 2007 – Abril 2008)",
+        "item7": "FONT HABITAT. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Octubre 2000 – Agosto 2007)",
+        "item8": "CAPRABO. Supermercados. Puesto de trabajo: Reponedor / Supervisor. (Julio 1996 – Agosto 1999)"
     }
 }

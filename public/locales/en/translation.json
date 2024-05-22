@@ -7,7 +7,7 @@
     "email": "email",
     "phone": "phone",
     "address": "address",
-    "download":"download",
+    "download": "download",
     "phones": {
         "phone1": "+34 640 282 614",
         "phone2": "+34 936 409 497"
@@ -46,15 +46,18 @@
         "item7": "Dreamweaver: Design and Integrate Websites with the HTML editor. In-person training, taught by Barcelona Activa. Duration: 6 hours, 2013",
         "item8": "Communication and Network Technician, Maintenance of Computer Equipment. In-person training, given by www.espai.es. Duration: 200 hours (theoretical-practical), 2013",
         "item9": "Masonry Course. In-person training, taught by the Gaudí Institute. Duration: 6 hours, 2011",
-        "item10": "Preventive resource. Construction Sector. In-person training, taught by the Gaudí Institute. Duration: 60 hours, 2008"
+        "item10": "Preventive resource. Construction Sector. In-person training, taught by the Gaudí Institute. Duration: 60 hours, 2008",
+        "item11": "Graduate"
     },
     "professionalExperiencie": {
         "title": "professional experiencie",
-        "item1": "HURIK INSTALLATIONS AND ASSEMBLY. Assembly of Elevators. Job position: Laborer. (June - August / 2019)",
-        "item2": "CONSTRUCCIONES NOELBA, SL. Construction company. Job position: 1st Officer. (November 2015 – September 2018)",
-        "item3": "SP3 REHABILITATION WORKS AND SERVICES. Construction company. Job position: 1st Officer. (April 2008 – May 2009)",
-        "item4": "AQUA TERRA COMPREHENSIVE MANAGEMENT. Construction company. Job position: 1st Officer. (September 2007 – April 2008)",
-        "item5": "FONT HABITAT. Construction company. Job position: 1st Officer. (October 2000 – August 2007)",
-        "item6": "CAPRABO. Supermarkets. Job position: Stocker / Supervisor. (July 1996 – August 1999)"
+        "item1": "Constructions and Projects FRAJOMI XXI. Construction company. Job position: 1st Officer. (June 2020 – April 2023)",
+        "item2": "AMAZON. Job position: Piking Job. (November 2019 – February 2020)",
+        "item3": "HURIK INSTALLATIONS AND ASSEMBLY. Assembly of Elevators. Job position: Laborer. (June - August / 2019)",
+        "item4": "CONSTRUCTIONS NOELBA, SL. Construction company. Job position: 1st Officer. (November 2015 – September 2018)",
+        "item5": "SP3 REHABILITATION WORKS AND SERVICES. Construction company. Job position: 1st Officer. (April 2008 – May 2009)",
+        "item6": "AQUA TERRA COMPREHENSIVE MANAGEMENT. Construction company. Job position: 1st Officer. (September 2007 – April 2008)",
+        "item7": "FONT HABITAT. Construction company. Job position: 1st Officer. (October 2000 – August 2007)",
+        "item8": "CAPRABO. Supermarkets. Job position: Stocker / Supervisor. (July 1996 – August 1999)"
     }
 }
