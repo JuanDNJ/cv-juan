@@ -33,12 +33,13 @@ export default function App() {
               <Card title="personalInformation">
                 <FlexCol>
                   <span>
-                    <strong>{firstCharAtToUpperCase(t("name"))}</strong>:{" "}
-                    {t("firstName")}
+                    <strong>{firstCharAtToUpperCase(t("name"))}</strong>:&nbsp;
+                    {t("firstName")}&nbsp;
                     {t("surname")}
                   </span>
                   <span>
-                    <strong>{firstCharAtToUpperCase(t("birthdate"))}</strong>:{" "}
+                    <strong>{firstCharAtToUpperCase(t("birthdate"))}</strong>
+                    :&nbsp;
                     {t("dateOfBirth")}
                   </span>
                 </FlexCol>

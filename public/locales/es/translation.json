@@ -9,6 +9,7 @@
     "phone": "teléfono",
     "address": "dirección",
     "download": "descargar",
+    "developer": "desarrollador",
     "phones": {
         "phone1": "+34 640 282 614",
         "phone2": "+34 936 409 497"
