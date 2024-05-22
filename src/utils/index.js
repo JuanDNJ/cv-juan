@@ -2,9 +2,9 @@ import { technologicalSkills } from "./technologicalSkills";
 const languages = [
   {
     id: 1,
-    language: "ca",
-    name: "catalonia",
-    img: "./images/png/cat.png",
+    language: "en",
+    name: "inglish",
+    img: "./images/png/en.png",
   },
   {
     id: 2,
@@ -14,9 +14,9 @@ const languages = [
   },
   {
     id: 3,
-    language: "en",
-    name: "inglish",
-    img: "./images/png/en.png",
+    language: "ca",
+    name: "catalonia",
+    img: "./images/png/cat.png",
   },
 ];
 
