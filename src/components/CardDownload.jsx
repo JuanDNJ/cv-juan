@@ -14,7 +14,7 @@ export default function CardDownload() {
         <article className="bg-white w-full  flex flex-col rounded-lg border-2 border-[#575757] overflow-hidden">
           <PdfDownLoad name="Juan_A_Valdivia_Camacho_CV_EN" lang="EN" />
           <PdfDownLoad name="Juan_A_Valdivia_Camacho_CV_ES" lang="ES" />
-          <PdfDownLoad name="Juan_A_Valdivia_Camacho_CV_CAT" lang="CAT" />
+          <PdfDownLoad name="Juan_A_Valdivia_Camacho_CV_CA" lang="CAT" />
         </article>
       </UnOrderedList>
     </section>
