@@ -38,27 +38,27 @@
     "contact": "contacto",
     "training": {
         "title": "formación",
-        "item1": "Introducción a la Programación. Formación On-Line, impartida por Universitas Telefónica. 30 horas, 2017",
-        "item2": "Desarrollo en HTML5, CSS Y JAVASCRIPT DE WEB APPS incluido Móviles Firefox OS 3ª Generación. Formación On-Line, impartida por Universidad Politécnica de Madrid. 50 horas, 2015.",
-        "item3": "Creación y Retoque de imágenes con software Gimp. Formación On-Line, impartida por Universidad de Málaga. 27 horas, 2014",
-        "item4": "Web con XHTML y CSS. Formación Presencial, impartida por Barcelona Activa. 3 horas, 2013",
-        "item5": "Principios de Maquetación Web. Formación Presencial, impartida por Barcelona Activa. 3 horas, 2013",
-        "item6": "Introducción a CSS3. Formación Presencial, impartida por Barcelona Activa. 3 horas, 2013",
-        "item7": "Dreamweaver: Diseña e Integra Webs con el editor HTML. Formación Presencial, impartida por Barcelona Activa. Duración: 6 horas, 2013",
-        "item8": "Técnico en Comunicación y Redes, Mantenimiento de Equipos Informáticos. Formación Presencial, impartida por www.espai.es. Duración: 200 horas (teórico-prácticas), 2013",
-        "item9": "Curso de Albañilería. Formación Presencial, impartido por Instituto Gaudí. Duración: 6 horas, 2011",
-        "item10": "Recurso Preventivo. Sector Construcción. Formación Presencial, impartido por Instituto Gaudí. Duración: 60 horas, 2008",
+        "item1": "Introducción a la Programación. Formación On-Line, impartida por Universitas Telefónica, 2017",
+        "item2": "Desarrollo en HTML5, CSS Y JAVASCRIPT DE WEB APPS incluido Móviles Firefox OS 3ª Generación. Formación On-Line, impartida por Universidad Politécnica de Madrid, 2015.",
+        "item3": "Creación y Retoque de imágenes con software Gimp. Formación On-Line, impartida por Universidad de Málaga, 2014",
+        "item4": "Web con XHTML y CSS. Formación Presencial, impartida por Barcelona Activa, 2013",
+        "item5": "Principios de Maquetación Web. Formación Presencial, impartida por Barcelona Activa, 2013",
+        "item6": "Introducción a CSS3. Formación Presencial, impartida por Barcelona Activa, 2013",
+        "item7": "Dreamweaver: Diseña e Integra Webs con el editor HTML. Formación Presencial, impartida por Barcelona Activa, 2013",
+        "item8": "Técnico en Comunicación y Redes, Mantenimiento de Equipos Informáticos. Formación Presencial, impartida por www.espai.es. 200 horas (teórico-prácticas), 2013",
+        "item9": "Curso de Albañilería. Formación Presencial, impartido por Instituto Gaudí. 2011",
+        "item10": "Recurso Preventivo. Sector Construcción. Formación Presencial, impartido por Instituto Gaudí, 2008",
         "item11": "Graduado Escolar"
     },
     "professionalExperiencie": {
         "title": "experiencia profesional",
         "item1": "Construcciones y Proyectos FRAJOMI XXI. Empresa de construcción. Puesto de trabajo: 1er Oficial. (Junio 2020 – Abril 2023)",
-        "item2": "AMAZON. Cargo de trabajo: Piking Job. (Noviembre 2019 – Febrero 2020)",
+        "item2": "AMAZON. Puesto de trabajo: Piking Job. (Noviembre 2019 – Febrero 2020)",
         "item3": "INSTALACIONES Y MONTAJES HURIK. Montaje de Ascensores. Puesto de trabajo: Peón. (Junio ​​- Agosto / 2019)",
         "item4": "CONSTRUCCIONES NOELBA, SL. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Noviembre 2015 – Septiembre 2018)",
         "item5": "SP3 OBRAS Y SERVICIOS DE REHABILITACIÓN. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Abril 2008 – Mayo 2009)",
         "item6": "AQUA TERRA GESTIÓN INTEGRAL. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Septiembre 2007 – Abril 2008)",
-        "item7": "FONT HÀBITAT. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Octubre 2000 – Agost 2007)",
-        "item8": "CAPRABO. Supermercats. Lloc de treball: Reposador/Supervisor. (Juliol 1996 – Agost 1999)"
+        "item7": "FONT HÀBITAT. Empresa de Construcció. Puesto de trabajo: Oficial de 1a. (Octubre 2000 – Agosto 2007)",
+        "item8": "CAPRABO. Supermercats. Puesto de trabajo: Reposador/Supervisor. (Juliol 1996 – Agosto 1999)"
     }
 }

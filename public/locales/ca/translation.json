@@ -38,16 +38,16 @@
     "contact": "contacte",
     "training": {
         "title": "formació",
-        "item1": "Introducció a la Programació. Formació On-Line, impartida per Universitas Telefónica. 30 hores, 2017",
-        "item2": "Desenvolupament en HTML5, CSS I JAVASCRIPT DE WEB APPS inclòs Mòbils Firefox OS 3a Generació. Formació en línia, impartida per Universitat Politècnica de Madrid. 50 hores, 2015.",
-        "item3": "Creació i Retoc d'imatges amb programari Gimp. Formació en línia, impartida per Universitat de Màlaga. 27 hores, 2014",
-        "item4": "Web amb XHTML i CSS. Formació Presencial, impartida per Barcelona Activa. 3 hores, 2013",
-        "item5": "Principis de Maquetació Web. Formació Presencial, impartida per Barcelona Activa. 3 hores, 2013",
-        "item6": "Introducció a CSS3. Formació Presencial, impartida per Barcelona Activa. 3 hores, 2013",
-        "item7": "Dreamweaver: Dissenya i integra Webs amb l'editor HTML. Formació Presencial, impartida per Barcelona Activa. Durada: 6 hores, 2013",
+        "item1": "Introducció a la Programació. Formació On-Line, impartida per Universitas Telefónica, 2017",
+        "item2": "Desenvolupament en HTML5, CSS I JAVASCRIPT DE WEB APPS inclòs Mòbils Firefox OS 3a Generació. Formació en línia, impartida per Universitat Politècnica de Madrid, 2015.",
+        "item3": "Creació i Retoc d'imatges amb programari Gimp. Formació en línia, impartida per Universitat de Màlaga, 2014",
+        "item4": "Web amb XHTML i CSS. Formació Presencial, impartida per Barcelona Activa, 2013",
+        "item5": "Principis de Maquetació Web. Formació Presencial, impartida per Barcelona Activa, 2013",
+        "item6": "Introducció a CSS3. Formació Presencial, impartida per Barcelona Activa, 2013",
+        "item7": "Dreamweaver: Dissenya i integra Webs amb l'editor HTML. Formació Presencial, impartida per Barcelona Activa, 2013",
         "item8": "Tècnic en Comunicació i Xarxes, Manteniment d´Equips Informàtics. Formació Presencial, impartida per www.espai.es. Durada: 200 hores (teòric-pràctiques), 2013",
-        "item9": "Curs d'Albanyileria. Formació Presencial, impartit per Institut Gaudí. Durada: 6 hores, 2011",
-        "item10": "Recurs Preventiu. Sector Construcció. Formació Presencial, impartit per Institut Gaudí. Durada: 60 hores, 2008",
+        "item9": "Curs d'Albanyileria. Formació Presencial, impartit per Institut Gaudís, 2011",
+        "item10": "Recurs Preventiu. Sector Construcció. Formació Presencial, impartit per Institut Gaudí, 2008",
         "item11": "Graduat Escolar"
     },
     "professionalExperiencie": {
@@ -58,7 +58,7 @@
         "item4": "CONSTRUCCIONS NOELBA, SL. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Novembre 2015 – Setembre 2018)",
         "item5": "SP3 OBRES I SERVEIS DE REHABILITACIÓ. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Abril 2008 – Maig 2009)",
         "item6": "AQUA TERRA GESTIÓ INTEGRAL. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Setembre 2007 – Abril 2008)",
-        "item7": "FONT HABITAT. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Octubre 2000 – Agosto 2007)",
-        "item8": "CAPRABO. Supermercados. Puesto de trabajo: Reponedor / Supervisor. (Julio 1996 – Agosto 1999)"
+        "item7": "FONT HABITAT. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Octubre 2000 – Agost 2007)",
+        "item8": "CAPRABO. Supermercados. Puesto de trabajo: Reponedor / Supervisor. (Juliol 1996 – Agost 1999)"
     }
 }
