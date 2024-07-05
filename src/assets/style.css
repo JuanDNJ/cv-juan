@@ -114,8 +114,13 @@ a {
   padding: 0;
   margin: 0;
 }
+
 a:hover {
   color: #353dd6;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 html,
@@ -136,23 +141,29 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+
 h1 {
   @apply font-roboto text-white p-4 font-extrabold;
 }
+
 h2 {
-  @apply font-raleway text-[#4d4d4d]  text-[1.6em] md:text-2xl pb-1 font-extrabold;
+  @apply font-raleway text-[#4d4d4d] text-[1.6em] md:text-2xl pb-1 font-extrabold;
 }
+
 span,
 strong {
   @apply text-sm md:text-[1em] pb-1;
 }
+
 .name,
 .surname {
   @apply text-lg md:text-3xl pb-0;
 }
+
 .surname {
   @apply text-sm md:text-2xl pb-0;
 }
+
 .photo__cv {
   @apply w-20 h-24 md:w-28 md:h-32 object-cover text-sm bg-stone-700 rounded-md border-2 border-stone-600;
 }
