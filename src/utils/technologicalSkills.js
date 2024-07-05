@@ -1,3 +1,4 @@
+import SkillImg from "../components/SkillImg";
 import {
   Astro,
   Css,
@@ -112,4 +113,5 @@ export const technologicalSkills = [
     stroke: "black",
     Component: (props) => MySql(props),
   },
+
 ];

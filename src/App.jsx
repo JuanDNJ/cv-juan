@@ -16,6 +16,7 @@ import Email from "./components/svg/Email";
 import Phone from "./components/svg/Phone";
 import Address from "./components/svg/Address";
 import WebAddress from "./components/svg/WebAddress";
+import LinkSkill from "./components/LinkSkill";
 
 export default function App() {
   const { t } = useTranslation();
@@ -95,22 +96,7 @@ export default function App() {
               <Card title="skills">
                 <UnOrderedList addclass="grid grid-cols-5 md:grid-cols-8 gap-4 py-4">
                   {technologicalSkills.map((tech) => (
-                    <a
-                      target="_blank"
-                      href={tech.href}
-                      title={tech.name}
-                      key={tech.id}
-                      className="hover:scale-110 active:scale-95 transition-transform duration-300"
-                    >
-                      {tech.Component({
-                        fill:
-                          (tech.fill && tech.fill) ||
-                          (tech.stroke && tech.stroke) ||
-                          "",
-                        height: "100%",
-                        width: "100%",
-                      })}
-                    </a>
+                    <LinkSkill key={tech.id} data={tech} />
                   ))}
                 </UnOrderedList>
               </Card>
