@@ -1,4 +1,4 @@
-import SkillImg from "../components/SkillImg";
+
 import {
   Astro,
   Css,
