@@ -39,9 +39,25 @@ const firstCharAtToUpperCase = (string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
+const parseStrong = (payload, strs) => {
+  if (typeof payload === "string") {
+    if (typeof strs === 'object') {
+      const arraStrs = payload.split(" ")
+
+      strs.forEach(str => {
+        arraStrs.forEach(arraStr => console.log(arraStr.match(str)))
+      })
+
+    }
+
+  }
+
+}
+
 export {
   languages,
   socialNetWork,
   technologicalSkills,
   firstCharAtToUpperCase,
+  parseStrong
 };
