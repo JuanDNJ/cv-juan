@@ -70,16 +70,16 @@ export default function App() {
                       <small>{t("phones.phone2")}</small>
                     </a>
                   </span>
-                  <span className="flex place-items-center gap-1" title={`Envíame un WhatsApp`}>
+                  <span className="flex place-items-center gap-1" title={`${t("contacts.whatsapp")}`}>
                     <Whatsapp height="1.5em" width="1.5em" fill="green" />
-                    <a target="_blank" href={`https://wa.me/34640282614`} title={`Envíame un WhatsApp`} className=" hover:underline"><small>Envíame un WhatsApp</small></a>
+                    <a target="_blank" href={`https://wa.me/34640282614`} title={`${t("contacts.whatsapp")}`} className=" hover:underline"><small>{t("contacts.whatsapp")}</small></a>
                   </span>
                   <a
                     className="hover:underline"
                     title={firstCharAtToUpperCase(t("web"))}
                     href={t("contacts.web")}
                   >
-                    <div className="flex place-items-center gap-2">
+                    <div className="flex place-items-center gap-1">
                       <WebAddress fill="skyblue" height="1.5em" width="1.5em" />
                       <small>{t("contacts.web")} </small>
                     </div>
