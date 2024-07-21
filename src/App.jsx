@@ -31,7 +31,7 @@ export default function App() {
                 <Text>{t("aboutMe.item1")}</Text>
                 <Text>{t("aboutMe.item2")}</Text>
               </Card>
-              <Card title="personalInformation">
+              {/* <Card title="personalInformation">
                 <FlexCol>
                   <span>
                     <strong>{firstCharAtToUpperCase(t("name"))}</strong>:&nbsp;
@@ -44,7 +44,7 @@ export default function App() {
                     {t("dateOfBirth")}
                   </span>
                 </FlexCol>
-              </Card>
+              </Card> */}
               <Card title="contact">
                 <FlexCol>
                   <a
@@ -63,8 +63,8 @@ export default function App() {
                     title={firstCharAtToUpperCase(t("phone"))}
                   >
                     <Phone height="1.5em" width="1.5em" fill="green" />
-                    {t("phones.phone1")}&nbsp;, &nbsp;
-                    {t("phones.phone2")}
+                    <a href={`tel:${t("phones.phone1")}`} title={`${t("phones.phone1")}`}>{t("phones.phone1")}</a>,
+                    <a href={`tel:${t("phones.phone2")}`} title={`${t("phones.phone2")}`}>{t("phones.phone2")}</a>
                   </span>
                   <span
                     className="flex place-items-center gap-1"
@@ -86,6 +86,19 @@ export default function App() {
                   </a>
                 </FlexCol>
               </Card>
+
+              <Card title="skills">
+                {/* <UnOrderedList addclass="grid grid-cols-5 md:grid-cols-8 gap-4 py-4">
+                  {technologicalSkills.map((tech) => (
+                    <LinkSkill key={tech.id} data={tech} />
+                  ))}
+                </UnOrderedList> */}
+                <UnOrderedList addclass="flex flex-col gap-2">
+                  {technologicalSkills.map((tech) => (
+                    <LinkSkill key={tech.id} data={tech} />
+                  ))}
+                </UnOrderedList>
+              </Card>
               <Card title="dataOfInterest.title">
                 <UnOrderedList>
                   <ItemList text="dataOfInterest.item1" />
@@ -93,29 +106,10 @@ export default function App() {
                   <ItemList text="dataOfInterest.item3" />
                 </UnOrderedList>
               </Card>
-              <Card title="skills">
-                <UnOrderedList addclass="grid grid-cols-5 md:grid-cols-8 gap-4 py-4">
-                  {technologicalSkills.map((tech) => (
-                    <LinkSkill key={tech.id} data={tech} />
-                  ))}
-                </UnOrderedList>
-              </Card>
             </FlexCol>
           </Column>
           <Column className="py-4">
             <FlexCol addclass="gap-4">
-              <Card title="professionalExperiencie.title">
-                <UnOrderedList>
-                  <ItemList text="professionalExperiencie.item1" />
-                  <ItemList text="professionalExperiencie.item2" />
-                  <ItemList text="professionalExperiencie.item3" />
-                  <ItemList text="professionalExperiencie.item4" />
-                  <ItemList text="professionalExperiencie.item5" />
-                  <ItemList text="professionalExperiencie.item6" />
-                  <ItemList text="professionalExperiencie.item7" />
-                  <ItemList text="professionalExperiencie.item8" />
-                </UnOrderedList>
-              </Card>
               <Card title="training.title">
                 <UnOrderedList>
                   <ItemList text="training.item1" />
@@ -128,7 +122,18 @@ export default function App() {
                   <ItemList text="training.item8" />
                   <ItemList text="training.item9" />
                   <ItemList text="training.item10" />
-                  <ItemList text="training.item11" />
+                </UnOrderedList>
+              </Card>
+              <Card title="professionalExperiencie.title">
+                <UnOrderedList>
+                  <ItemList text="professionalExperiencie.item1" />
+                  <ItemList text="professionalExperiencie.item2" />
+                  <ItemList text="professionalExperiencie.item3" />
+                  <ItemList text="professionalExperiencie.item4" />
+                  <ItemList text="professionalExperiencie.item5" />
+                  <ItemList text="professionalExperiencie.item6" />
+                  <ItemList text="professionalExperiencie.item7" />
+                  <ItemList text="professionalExperiencie.item8" />
                 </UnOrderedList>
               </Card>
             </FlexCol>

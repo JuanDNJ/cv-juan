@@ -5,17 +5,19 @@ export default function LinkSkill({ data }) {
             href={data.href}
             title={data.name}
             key={data.id}
-            className="hover:scale-110 active:scale-95 transition-transform duration-300"
+            className="hover:scale-110 hover:underline active:scale-95 transition-transform duration-300 flex items-center gap-4 max-w-52"
         >
+
             {data.Component({
                 fill:
                     (data.fill && data.fill) ||
                     (data.stroke && data.stroke) ||
                     "",
-                height: "100%",
-                width: "100%",
+                height: "34px",
+                width: "34px",
                 src: data.href
             })}
+            {data.name === 'Html' ? data.name + '5' : data.name}
         </a>
     )
 }
