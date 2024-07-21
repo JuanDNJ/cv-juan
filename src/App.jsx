@@ -17,6 +17,7 @@ import Phone from "./components/svg/Phone";
 import Address from "./components/svg/Address";
 import WebAddress from "./components/svg/WebAddress";
 import LinkSkill from "./components/LinkSkill";
+import Whatsapp from "./components/svg/Whatsapp";
 
 export default function App() {
   const { t } = useTranslation();
@@ -54,7 +55,7 @@ export default function App() {
                   >
                     <div className="flex place-items-center gap-2">
                       <Email height="1.5em" width="1.5em" fill="#333" />
-                      <span>{t("contacts.email")} </span>
+                      <small>{t("contacts.email")} </small>
                     </div>
                   </a>
 
@@ -63,17 +64,16 @@ export default function App() {
                     title={firstCharAtToUpperCase(t("phone"))}
                   >
                     <Phone height="1.5em" width="1.5em" fill="green" />
-                    <a href={`tel:${t("phones.phone1")}`} title={`${t("phones.phone1")}`}>{t("phones.phone1")}</a>,
-                    <a href={`tel:${t("phones.phone2")}`} title={`${t("phones.phone2")}`}>{t("phones.phone2")}</a>
+                    <a href={`tel:${t("phones.phone1")}`} title={`${t("phones.phone1")}`} className=" hover:underline">
+                      <small>{t("phones.phone1")}</small></a>,
+                    <a href={`tel:${t("phones.phone2")}`} title={`${t("phones.phone2")}`} className=" hover:underline">
+                      <small>{t("phones.phone2")}</small>
+                    </a>
                   </span>
-                  <span
-                    className="flex place-items-center gap-1"
-                    title={firstCharAtToUpperCase(t("address"))}
-                  >
-                    <Address height="1.5em" width="1.5em" fill="red" />
-                    {t("contacts.address")}
+                  <span className="flex place-items-center gap-1" title={`Envíame un WhatsApp`}>
+                    <Whatsapp height="1.5em" width="1.5em" fill="green" />
+                    <a target="_blank" href={`https://wa.me/34640282614`} title={`Envíame un WhatsApp`} className=" hover:underline"><small>Envíame un WhatsApp</small></a>
                   </span>
-
                   <a
                     className="hover:underline"
                     title={firstCharAtToUpperCase(t("web"))}
@@ -81,9 +81,16 @@ export default function App() {
                   >
                     <div className="flex place-items-center gap-2">
                       <WebAddress fill="skyblue" height="1.5em" width="1.5em" />
-                      <span>{t("contacts.web")} </span>
+                      <small>{t("contacts.web")} </small>
                     </div>
                   </a>
+                  <span
+                    className="flex place-items-center gap-1"
+                    title={firstCharAtToUpperCase(t("address"))}
+                  >
+                    <Address height="1.5em" width="1.5em" fill="red" />
+                    <small> {t("contacts.address")}</small>
+                  </span>
                 </FlexCol>
               </Card>
 

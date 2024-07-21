@@ -17,7 +17,7 @@ export default function LinkSkill({ data }) {
                 width: "34px",
                 src: data.href
             })}
-            {data.name === 'Html' ? data.name + '5' : data.name}
+            <small>{data.name === 'Html' ? data.name + '5' : data.name}</small>
         </a>
     )
 }
