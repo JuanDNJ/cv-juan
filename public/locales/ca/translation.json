@@ -39,17 +39,17 @@
     "contact": "contacte",
     "training": {
         "title": "formació",
-        "item1": "Introducció a la Programació. Formació On-Line, impartida per Universitas Telefónica, 2017",
-        "item2": "Desenvolupament en HTML5, CSS I JAVASCRIPT DE WEB APPS inclòs Mòbils Firefox OS 3a Generació. Formació en línia, impartida per Universitat Politècnica de Madrid, 2015.",
-        "item3": "Creació i Retoc d'imatges amb programari Gimp. Formació en línia, impartida per Universitat de Màlaga, 2014",
-        "item4": "Web amb XHTML i CSS. Formació Presencial, impartida per Barcelona Activa, 2013",
-        "item5": "Principis de Maquetació Web. Formació Presencial, impartida per Barcelona Activa, 2013",
-        "item6": "Introducció a CSS3. Formació Presencial, impartida per Barcelona Activa, 2013",
-        "item7": "Dreamweaver: Dissenya i integra Webs amb l'editor HTML. Formació Presencial, impartida per Barcelona Activa, 2013",
-        "item8": "Tècnic en Comunicació i Xarxes, Manteniment d´Equips Informàtics. Formació Presencial, impartida per www.espai.es. Durada: 200 hores (teòric-pràctiques), 2013",
-        "item9": "Curs d'Albanyileria. Formació Presencial, impartit per Institut Gaudís, 2011",
-        "item10": "Recurs Preventiu. Sector Construcció. Formació Presencial, impartit per Institut Gaudí, 2008",
-        "item11": "Graduat Escolar"
+        "item1": "Formació RESKILLING, Frontend amb React, impartida per IT ACADEMY, 2024",
+        "item2": "Introducció a la Programació. Formació On-Line, impartida per Universitas Telefónica, 2017",
+        "item3": "Desenvolupament en HTML5, CSS I JAVASCRIPT DE WEB APPS inclòs Mòbils Firefox OS 3a Generació. Formació en línia, impartida per Universitat Politècnica de Madrid, 2015.",
+        "item4": "Creació i Retoc d'imatges amb programari Gimp. Formació en línia, impartida per Universitat de Màlaga, 2014",
+        "item5": "Web amb XHTML i CSS. Formació Presencial, impartida per Barcelona Activa, 2013",
+        "item6": "Principis de Maquetació Web. Formació Presencial, impartida per Barcelona Activa, 2013",
+        "item7": "Introducció a CSS3. Formació Presencial, impartida per Barcelona Activa, 2013",
+        "item8": "Dreamweaver: Dissenya i integra Webs amb l'editor HTML. Formació Presencial, impartida per Barcelona Activa, 2013",
+        "item9": "Tècnic en Comunicació i Xarxes, Manteniment d´Equips Informàtics. Formació Presencial, impartida per www.espai.es. Durada: 200 hores (teòric-pràctiques), 2013",
+        "item10": "Curs d'Albanyileria. Formació Presencial, impartit per Institut Gaudís, 2011",
+        "item11": "Recurs Preventiu. Sector Construcció. Formació Presencial, impartit per Institut Gaudí, 2008"
     },
     "professionalExperiencie": {
         "title": "experiència professional",

@@ -39,17 +39,17 @@
     "contact": "contact",
     "training": {
         "title": "training",
-        "item1": "Introduction to Programming. On-Line Training, taught by Universitas Telefónica, 2017",
-        "item2": "Development in HTML5, CSS AND JAVASCRIPT OF WEB APPS including Mobile Firefox OS 3rd Generation. On-Line Training, taught by the Polytechnic University of Madrid, 2015.",
-        "item3": "Creation and Retouching of images with Gimp software. On-Line Training, taught by the University of Malaga, 2014",
-        "item4": "Web with XHTML and CSS. In-person training, taught by Barcelona Activa, 2013",
-        "item5": "Principles of Web Layout. In-person training, taught by Barcelona Activa, 2013",
-        "item6": "Introduction to CSS3. In-person training, taught by Barcelona Activa, 2013",
-        "item7": "Dreamweaver: Design and Integrate Websites with the HTML editor. In-person training, taught by Barcelona Activa. Duration: 6 hours, 2013",
-        "item8": "Communication and Network Technician, Maintenance of Computer Equipment. In-person training, given by www.espai.es. Duration: 200 hours (theoretical-practical), 2013",
-        "item9": "Masonry Course. In-person training, taught by the Gaudí Institute, 2011",
-        "item10": "Preventive resource. Construction Sector. In-person training, taught by the Gaudí Institute, 2008",
-        "item11": "Graduate"
+        "item1": "RESKILLING training, Frontend with React, taught by IT ACADEMY, 2024",
+        "item2": "Introduction to Programming. On-Line Training, taught by Universitas Telefónica, 2017",
+        "item3": "Development in HTML5, CSS AND JAVASCRIPT OF WEB APPS including Mobile Firefox OS 3rd Generation. On-Line Training, taught by the Polytechnic University of Madrid, 2015.",
+        "item4": "Creation and Retouching of images with Gimp software. On-Line Training, taught by the University of Malaga, 2014",
+        "item5": "Web with XHTML and CSS. In-person training, taught by Barcelona Activa, 2013",
+        "item6": "Principles of Web Layout. In-person training, taught by Barcelona Activa, 2013",
+        "item7": "Introduction to CSS3. In-person training, taught by Barcelona Activa, 2013",
+        "item8": "Dreamweaver: Design and Integrate Websites with the HTML editor. In-person training, taught by Barcelona Activa. Duration: 6 hours, 2013",
+        "item9": "Communication and Network Technician, Maintenance of Computer Equipment. In-person training, given by www.espai.es. Duration: 200 hours (theoretical-practical), 2013",
+        "item10": "Masonry Course. In-person training, taught by the Gaudí Institute, 2011",
+        "item11": "Preventive resource. Construction Sector. In-person training, taught by the Gaudí Institute, 2008"
     },
     "professionalExperiencie": {
         "title": "professional experiencie",

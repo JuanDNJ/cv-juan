@@ -95,11 +95,6 @@ export default function App() {
               </Card>
 
               <Card title="skills">
-                {/* <UnOrderedList addclass="grid grid-cols-5 md:grid-cols-8 gap-4 py-4">
-                  {technologicalSkills.map((tech) => (
-                    <LinkSkill key={tech.id} data={tech} />
-                  ))}
-                </UnOrderedList> */}
                 <UnOrderedList addclass="flex flex-col gap-2">
                   {technologicalSkills.map((tech) => (
                     <LinkSkill key={tech.id} data={tech} />
@@ -129,6 +124,7 @@ export default function App() {
                   <ItemList text="training.item8" />
                   <ItemList text="training.item9" />
                   <ItemList text="training.item10" />
+                  <ItemList text="training.item11" />
                 </UnOrderedList>
               </Card>
               <Card title="professionalExperiencie.title">
