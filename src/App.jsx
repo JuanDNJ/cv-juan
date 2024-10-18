@@ -18,6 +18,7 @@ import Address from "./components/svg/Address";
 import WebAddress from "./components/svg/WebAddress";
 import LinkSkill from "./components/LinkSkill";
 import Whatsapp from "./components/svg/Whatsapp";
+import SetInnerHTML from "./components/SetInnerHTML";
 
 export default function App() {
   const { t } = useTranslation();
@@ -85,11 +86,11 @@ export default function App() {
                     </div>
                   </a>
                   <span
-                    className="flex place-items-center gap-1"
+                    className="flex items-center gap-1"
                     title={firstCharAtToUpperCase(t("address"))}
                   >
                     <Address height="1.5em" width="1.5em" fill="red" />
-                    <small> {t("contacts.address")}</small>
+                    <SetInnerHTML text="contacts.address" />
                   </span>
                 </FlexCol>
               </Card>
@@ -123,20 +124,14 @@ export default function App() {
                   <ItemList text="training.item7" />
                   <ItemList text="training.item8" />
                   <ItemList text="training.item9" />
-                  <ItemList text="training.item10" />
-                  <ItemList text="training.item11" />
                 </UnOrderedList>
               </Card>
               <Card title="professionalExperiencie.title">
                 <UnOrderedList>
+                  <ItemList text="professionalExperiencie.item9" />
                   <ItemList text="professionalExperiencie.item1" />
                   <ItemList text="professionalExperiencie.item2" />
                   <ItemList text="professionalExperiencie.item3" />
-                  <ItemList text="professionalExperiencie.item4" />
-                  <ItemList text="professionalExperiencie.item5" />
-                  <ItemList text="professionalExperiencie.item6" />
-                  <ItemList text="professionalExperiencie.item7" />
-                  <ItemList text="professionalExperiencie.item8" />
                 </UnOrderedList>
               </Card>
             </FlexCol>

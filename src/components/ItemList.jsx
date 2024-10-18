@@ -3,5 +3,6 @@ import { firstCharAtToUpperCase } from "../utils";
 
 export default function ItemList({ text }) {
   const { t } = useTranslation();
-  return <li className="pb-2">{firstCharAtToUpperCase(t(`${text}`))}</li>;
+  const texto = firstCharAtToUpperCase(t(`${text}`))
+  return <div className="pb-2" dangerouslySetInnerHTML={{ __html: texto }} />;
 }

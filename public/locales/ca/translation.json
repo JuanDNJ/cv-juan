@@ -16,7 +16,7 @@
     },
     "contacts": {
         "email": "juandevnjv@gmail.com",
-        "address": "Espanya, Barcelona, ​​Sant Boi de Llobregat, 08830",
+        "address": "<small><b>Espanya, Barcelona, ​​Sant Boi de Llobregat<b>, <span class='numberJson'>08830</span></small>",
         "web": "https://cv-juan.vercel.app/",
         "whatsapp": "Envia'm un WhatsApp"
     },
@@ -39,27 +39,28 @@
     "contact": "contacte",
     "training": {
         "title": "formació",
-        "item1": "Formació RESKILLING, Frontend amb React, impartida per IT ACADEMY, 2024",
-        "item2": "Introducció a la Programació. Formació On-Line, impartida per Universitas Telefónica, 2017",
-        "item3": "Desenvolupament en HTML5, CSS I JAVASCRIPT DE WEB APPS inclòs Mòbils Firefox OS 3a Generació. Formació en línia, impartida per Universitat Politècnica de Madrid, 2015.",
-        "item4": "Creació i Retoc d'imatges amb programari Gimp. Formació en línia, impartida per Universitat de Màlaga, 2014",
-        "item5": "Web amb XHTML i CSS. Formació Presencial, impartida per Barcelona Activa, 2013",
-        "item6": "Principis de Maquetació Web. Formació Presencial, impartida per Barcelona Activa, 2013",
-        "item7": "Introducció a CSS3. Formació Presencial, impartida per Barcelona Activa, 2013",
-        "item8": "Dreamweaver: Dissenya i integra Webs amb l'editor HTML. Formació Presencial, impartida per Barcelona Activa, 2013",
-        "item9": "Tècnic en Comunicació i Xarxes, Manteniment d´Equips Informàtics. Formació Presencial, impartida per www.espai.es. Durada: 200 hores (teòric-pràctiques), 2013",
-        "item10": "Curs d'Albanyileria. Formació Presencial, impartit per Institut Gaudís, 2011",
-        "item11": "Recurs Preventiu. Sector Construcció. Formació Presencial, impartit per Institut Gaudí, 2008"
+        "item1": "<p><b>Formació RESKILLING</b>, Frontend amb React, impartida per <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>IT Academy</a>, <span class='numberJson'>2024</span></p>",
+        "item2": "<p><b>Introducció a la Programació</b>. Formació On-Line, impartida per Universitas Telefónica, 2017</p>",
+        "item3": "<p><b>Desenvolupament en HTML5, CSS I JAVASCRIPT DE WEB APPS</b> inclòs Mòbils Firefox OS 3a Generació. Formació en línia, impartida per <b class='smallJson'>Universitat Politècnica de Madrid</b>, <span class='numberJson'>2015</span>.</p>",
+        "item4": "<p><b>Creació i Retoc d'imatges amb programari Gimp</b>. Formació en línia, impartida per <b class='smallJson'>Universitat de Màlaga</b>, <span class='numberJson'>2014</span></p>",
+        "item5": "<p><b>Web amb XHTML i CSS</b>. Formació Presencial, impartida per Barcelona Activa, <span class='numberJson'>2013</span></p>",
+        "item6": "<p><b>Principis de Maquetació Web</b>. Formació Presencial, impartida per <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
+        "item7": "<p><b>Introducció a CSS3</b>. Formació Presencial, impartida per <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
+        "item8": "<p><b>Dreamweaver</b>: Dissenya i integra Webs amb l'editor HTML. Formació Presencial, impartida per <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
+        "item9": "<p><b>Tècnic en Comunicació i Xarxes, Manteniment d´Equips Informàtics</b>. Formació Presencial, impartida per <a class='linkJson' target='__blanc' href='https://www.espai.es'>www.espai.es</a>. <br><span class='numberJson'>200</span> <small>hores (teòric-pràctiques)</small>, <span class='numberJson'>2013</span></p>",
+        "item10": "<p><b>Curs d'Albanyileria</b>. Formació Presencial, impartit per <b class='smallJson'>Institut Gaudís</b>, <span class='numberJson'>2011</span></p>",
+        "item11": "<p><b>Recurs Preventiu</b>. Sector Construcció. Formació Presencial, impartit per <b class='smallJson'>Institut Gaudí</b>, <span class='numberJson'>2008</span></p>"
     },
     "professionalExperiencie": {
         "title": "experiència professional",
-        "item1": "Construccions i Projectes FRAJOMI XXI. Empresa de construcció. Càrrec de treball: Oficial 1r. (Juny 2020 – Abril 2023)",
-        "item2": "AMAZON. Càrrec de treball: Piking Job. (Novembre 2019 – Febrer 2020)",
-        "item3": "INSTAL·LACIONS I MUNTATGES HURIK. Muntatge d´Ascensors. Lloc de treball: Peó. (Juny - Agost / 2019)",
-        "item4": "CONSTRUCCIONS NOELBA, SL. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Novembre 2015 – Setembre 2018)",
-        "item5": "SP3 OBRES I SERVEIS DE REHABILITACIÓ. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Abril 2008 – Maig 2009)",
-        "item6": "AQUA TERRA GESTIÓ INTEGRAL. Empresa de Construcció. Lloc de treball: Oficial de 1a. (Setembre 2007 – Abril 2008)",
-        "item7": "FONT HABITAT. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Octubre 2000 – Agost 2007)",
-        "item8": "CAPRABO. Supermercados. Puesto de trabajo: Reponedor / Supervisor. (Juliol 1996 – Agost 1999)"
+        "item1": "<p><b>Construccions i Projectes FRAJOMI XXI</b>. Empresa de construcció. Càrrec de treball: Oficial 1r. <span class='numberJson'> 2020</span> – Abril 2023)<p>",
+        "item2": "<p><b>AMAZON</b>. Càrrec de treball: Piking Job. <span class='numberJson'>2019</span> – <span class='numberJson'>2020</span><p>",
+        "item3": "<p><b>INSTAL·LACIONS I MUNTATGES HURIK</b>. Muntatge d´Ascensors. Lloc de treball: Peó.<span class='numberJson'>2019</span><p>",
+        "item4": "<p><b>CONSTRUCCIONS NOELBA, SL</b>. Empresa de Construcció. Lloc de treball: Oficial de 1a.<span class='numberJson'>2015</span> – <span class='numberJson'>2018</span><p>",
+        "item5": "<p><b>SP3 OBRES I SERVEIS DE REHABILITACIÓ</b>. Empresa de Construcció. Lloc de treball: Oficial de 1a.<span class='numberJson'>2008</span> – <span class='numberJson'>2009</span><p>",
+        "item6": "<p><b>AQUA TERRA GESTIÓ INTEGRAL</b>. Empresa de Construcció. Lloc de treball: Oficial de 1a. <span class='numberJson'>2007</span> –<span class='numberJson'>2008</span><p>",
+        "item7": "<p><b>FONT HABITAT</b>. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. <span class='numberJson'>2000</span> – <span class='numberJson'>2007</span><p>",
+        "item8": "<p><b>CAPRABO</b>. Supermercados. Puesto de trabajo: Reponedor / Supervisor. <span class='numberJson'>1996</span> – <span class='numberJson'>1999</span><p>",
+        "item9": "<p>Actualment participant al projecte <a class='linkJson' target='__blanc' href='https://github.com/IT-Academy-BCN/ita-profiles'>ITA-Profils</a> d'<a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>IT Academy</a>.<p>"
     }
 }

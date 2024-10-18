@@ -123,6 +123,18 @@ a:hover {
   display: none;
 }
 
+a.linkJson {
+  @apply text-xs text-blue-400 font-extrabold underline hover:text-stone-900;
+}
+
+.smallJson {
+  @apply text-[.9rem] text-[#636161] font-extrabold;
+}
+
+.numberJson {
+  @apply text-xs text-red-700 font-extrabold;
+}
+
 html,
 body {
   font-family: "Raleway", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -148,6 +160,14 @@ h1 {
 
 h2 {
   @apply font-raleway text-[#4d4d4d] text-[1.6em] md:text-2xl pb-1 font-extrabold;
+}
+
+p {
+  padding: .2rem 0
+}
+
+b {
+  @apply font-raleway text-[#7c7a7a] font-extrabold;
 }
 
 span,
