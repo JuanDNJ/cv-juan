@@ -47,6 +47,15 @@ export default function App() {
                   </span>
                 </FlexCol>
               </Card> */}
+
+              <Card title="skills">
+                <UnOrderedList addclass="flex flex-col gap-2">
+                  {technologicalSkills.map((tech) => (
+                    <LinkSkill key={tech.id} data={tech} />
+                  ))}
+                </UnOrderedList>
+              </Card>
+
               <Card title="contact">
                 <FlexCol>
                   <a
@@ -94,21 +103,6 @@ export default function App() {
                   </span>
                 </FlexCol>
               </Card>
-
-              <Card title="skills">
-                <UnOrderedList addclass="flex flex-col gap-2">
-                  {technologicalSkills.map((tech) => (
-                    <LinkSkill key={tech.id} data={tech} />
-                  ))}
-                </UnOrderedList>
-              </Card>
-              <Card title="dataOfInterest.title">
-                <UnOrderedList>
-                  <ItemList text="dataOfInterest.item1" />
-                  <ItemList text="dataOfInterest.item2" />
-                  <ItemList text="dataOfInterest.item3" />
-                </UnOrderedList>
-              </Card>
             </FlexCol>
           </Column>
           <Column className="py-4">
@@ -132,6 +126,13 @@ export default function App() {
                   <ItemList text="professionalExperiencie.item1" />
                   <ItemList text="professionalExperiencie.item2" />
                   <ItemList text="professionalExperiencie.item3" />
+                </UnOrderedList>
+              </Card>
+              <Card title="dataOfInterest.title">
+                <UnOrderedList>
+                  <ItemList text="dataOfInterest.item1" />
+                  <ItemList text="dataOfInterest.item2" />
+                  <ItemList text="dataOfInterest.item3" />
                 </UnOrderedList>
               </Card>
             </FlexCol>

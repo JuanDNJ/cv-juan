@@ -16,7 +16,7 @@
     },
     "contacts": {
         "email": "juandevnjv@gmail.com",
-        "address": "<small><b>España, Barcelona, Sant Boi de Llobrebat<b>, <span class='numberJson'>08830c</small>",
+        "address": "<small><b>España, Barcelona, Sant Boi de Llobrebat<b>, <span class='numberJson'>08830</span></small>",
         "web": "https://cv-juan.vercel.app/",
         "whatsapp": "Envíame un WhatsApp"
     },
@@ -30,37 +30,37 @@
     "personalInformation": "datos personales",
     "dataOfInterest": {
         "title": "datos de interés",
-        "item1": "carnet de conducir",
-        "item2": "disponibilidad geográfica",
-        "item3": "incorporación inmediata"
+        "item1": "<p class='paragrafJson'>Carnet de conducir</p>",
+        "item2": "<p class='paragrafJson'>Disponibilidad geográfica</p>",
+        "item3": "<p class='paragrafJson'>Incorporación inmediata</p>"
     },
     "skills": "Habilidades tecnológicas",
     "profile": "perfil",
     "contact": "contacto",
     "training": {
         "title": "formación",
-        "item1": "<p><b>Formación RESKILLING</b>, Frontend con React, impartida por <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>IT Academy</a>, <span class='numberJson'>2024</span></p>",
-        "item2": "<p><b>Introducción a la Programación</b>. Formación On-Line, impartida por <b class='smallJson'>Universitas Telefónica</b>, 2017</p>",
-        "item3": "<p><b>Desarrollo en HTML5, CSS Y JAVASCRIPT DE WEB APPS</b>, incluido Móviles Firefox OS 3ª Generación. Formación On-Line, impartida por <b class='smallJson'>Universidad Politécnica de Madrid</b>, <span class='numberJson'>2015</span>.</p>",
-        "item4": "<p><b>Creación y Retoque de imágenes con software Gimp</b>. Formación On-Line, impartida por <b class='smallJson'>Universidad de Málaga</b>, <span class='numberJson'>2014<span></p>",
-        "item5": "<p><b>Web con XHTML y CSS</b>. Formación Presencial, impartida por <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
-        "item6": "<p><b>Principios de Maquetación Web</b>. Formación Presencial, impartida por <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
-        "item7": "<p><b>Introducción a CSS3</b>. Formación Presencial, impartida por <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
-        "item8": "<p><b>Dreamweaver</b>: Diseña e Integra Webs con el editor HTML. Formación Presencial, impartida por <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
-        "item9": "<p><b>Técnico en Comunicación y Redes, Mantenimiento de Equipos Informáticos</b>. Formación Presencial, impartida por <a class='linkJson' target='__blanc' href='https://www.espai.es'>www.espai.es</a>.<br/><span class='numberJson'>200</span> <small>horas (teórico-prácticas)</small>, <span class='numberJson'>2013</span></p>",
-        "item10": "<p>Curso de Albañilería. Formación Presencial, impartido por <b class='smallJson'>Instituto Gaudía</b>. <span class='numberJson'>2011</span></p>",
-        "item11": "<p>Recurso Preventivo. Sector Construcción. Formación Presencial, impartido por <b class='smallJson'>Instituto Gaudía</b>, <span class='numberJson'>2008</span></p>"
+        "item1": "<p class='paragrafJson'><strong class='strongJson'>Formación RESKILLING</strong></br>Frontend con React, impartida por <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>IT Academy</a>, <span class='numberJson'>2024</span></p>",
+        "item2": "<p class='paragrafJson'><strong class='strongJson'>Introducción a la Programación</strong></br>Formación On-Line, impartida por <b class='smallJson'>Universitas Telefónica</b>, <span class='numberJson'>2017<span></p>",
+        "item3": "<p class='paragrafJson'><strong class='strongJson'>Desarrollo en HTML5, CSS Y JAVASCRIPT DE WEB APPS</strong></br>Incluido Móviles Firefox OS 3ª Generación. Formación On-Line, impartida por <b class='smallJson'>Universidad Politécnica de Madrid</b>, <span class='numberJson'>2015</span>.</p>",
+        "item4": "<p class='paragrafJson'><strong class='strongJson'>Creación y Retoque de imágenes con software Gimp</strong></br>Formación On-Line, impartida por <b class='smallJson'>Universidad de Málaga</b>, <span class='numberJson'>2014<span></p>",
+        "item5": "<p class='paragrafJson'><strong class='strongJson'>Web con XHTML y CSS</strong></br>Formación Presencial, impartida por <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
+        "item6": "<p class='paragrafJson'><strong class='strongJson'>Principios de Maquetación Web</strong></br>Formación Presencial, impartida por <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
+        "item7": "<p class='paragrafJson'><strong class='strongJson'>Introducción a CSS3</strong></br>Formación Presencial, impartida por <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
+        "item8": "<p class='paragrafJson'><strong class='strongJson'>Dreamweaver</strong></br>Diseña e Integra Webs con el editor HTML. Formación Presencial, impartida por <a class='linkJson' target='__blanc' href='https://www.barcelonactiva.cat/'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
+        "item9": "<p class='paragrafJson'><strong class='strongJson'>Técnico en Comunicación y Redes, Mantenimiento de Equipos Informáticos</strong></br>Formación Presencial, impartida por <a class='linkJson' target='__blanc' href='https://www.espai.es'>www.espai.es</a>. <span class='numberJson'>200</span> <small>horas (teórico-prácticas)</small>, <span class='numberJson'>2013</span></p>",
+        "item10": "<p class='paragrafJson'>Curso de Albañilería</br>Formación Presencial, impartido por <strong class='strongJson' class='smallJson'>Instituto Gaudía</strong>. <span class='numberJson'>2011</span></p>",
+        "item11": "<p class='paragrafJson'>Recurso Preventivo</br>Sector Construcción. Formación Presencial, impartido por <b class='smallJson'>Instituto Gaudía</b>, <span class='numberJson'>2008</span></p>"
     },
     "professionalExperiencie": {
         "title": "experiencia profesional",
-        "item1": "<p><b>Construcciones y Proyectos FRAJOMI XXI</b>. Empresa de construcción. Puesto de trabajo: 1er Oficial. <span class='numberJson'>2020</span> – <span class='numberJson'>2023</span></p>",
-        "item2": "<p><b>AMAZON</b>. Puesto de trabajo: Piking Job. <span class='numberJson'>2019</span> – <span class='numberJson'>2020</span></p>",
-        "item3": "<p><b>INSTALACIONES Y MONTAJES HURIK</b>. Montaje de Ascensores. Puesto de trabajo: Peón. <span class='numberJson'>2019</span></p>",
-        "item4": "<p><b>CONSTRUCCIONES NOELBA, SL</b>. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Noviembre 2015 – Septiembre 2018)</p>",
-        "item5": "<p><b>SP3 OBRAS Y SERVICIOS DE REHABILITACIÓN</b>. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Abril 2008 – Mayo 2009)</p>",
-        "item6": "<p><b>AQUA TERRA GESTIÓN INTEGRAL</b>. Empresa de Construcción. Puesto de trabajo: Oficial de 1ª. (Septiembre 2007 – Abril 2008)</p>",
-        "item7": "<p><b>FONT HÀBITAT</b>. Empresa de Construcció. Puesto de trabajo: Oficial de 1a. (Octubre 2000 – Agosto 2007)</p>",
-        "item8": "<p><b>CAPRABO</b>. Supermercats. Puesto de trabajo: Reposador/Supervisor. (Juliol 1996 – Agosto 1999)</p>",
-        "item9": "<p>Actualmente participando en el proyecto <a class='linkJson' target='__blanc' href='https://github.com/IT-Academy-BCN/ita-profiles'>ITA-Profiles</a> de <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat/login/index.php'>IT Academy</a>.</p>"
+        "item1": "<p class='paragrafJson'><strong class='strongJson'>Construcciones y Proyectos FRAJOMI XXI</strong></br>Empresa de construcción.</br>Puesto de trabajo: 1er Oficial. <span class='numberJson'>2020</span> – <span class='numberJson'>2023</span></p>",
+        "item2": "<p class='paragrafJson'><strong class='strongJson'>Amazon</strong>.</br>Puesto de trabajo: Piking Job. <span class='numberJson'>2019</span> – <span class='numberJson'>2020</span></p>",
+        "item3": "<p class='paragrafJson'><strong class='strongJson'>Instalaciones y montajes HURIK</strong></br>Montaje de Ascensores.</br>Puesto de trabajo: Peón. <span class='numberJson'>2019</span></p>",
+        "item4": "<p class='paragrafJson'><strong class='strongJson'>CONSTRUCCIONES NOELBA, SL</strong></br>Empresa de Construcción.</br>Puesto de trabajo: Oficial de 1ª. (Noviembre 2015 – Septiembre 2018)</p>",
+        "item5": "<p class='paragrafJson'><strong class='strongJson'>SP3 OBRAS Y SERVICIOS DE REHABILITACIÓN</strong></br>Empresa de Construcción.</br>Puesto de trabajo: Oficial de 1ª. (Abril 2008 – Mayo 2009)</p>",
+        "item6": "<p class='paragrafJson'><strong class='strongJson'>AQUA TERRA GESTIÓN INTEGRAL</strong></br>Empresa de Construcción.</br>Puesto de trabajo: Oficial de 1ª. (Septiembre 2007 – Abril 2008)</p>",
+        "item7": "<p class='paragrafJson'><strong class='strongJson'>FONT HÀBITAT</strong></br>Empresa de Construcció.</br>Puesto de trabajo: Oficial de 1a. (Octubre 2000 – Agosto 2007)</p>",
+        "item8": "<p class='paragrafJson'><strong class='strongJson'>CAPRABO</strong></br>Supermercats.</br>Puesto de trabajo: Reposador/Supervisor. (Juliol 1996 – Agosto 1999)</p>",
+        "item9": "<p class='paragrafJson'>Actualmente participando en el proyecto <a class='linkJson' target='__blanc' href='https://github.com/IT-Academy-BCN/ita-profiles'>ITA-Profiles</a> de <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat/login/index.php'>IT Academy</a>.</p>"
     }
 }

@@ -1,0 +1,27 @@
+a.linkJson {
+    @apply text-xs text-blue-400 font-extrabold underline hover:text-stone-900;
+}
+
+strong.strongJson {
+    @apply text-stone-600 text-[1.2rem];
+}
+
+b {
+    @apply font-raleway text-[#7c7a7a] font-extrabold py-2;
+}
+
+b.iJson {
+    @apply text-[.8rem] text-stone-600 py-2;
+}
+
+p.paragrafJson {
+    @apply text-sm md:text-[1em] pb-2 text-pretty text-left;
+}
+
+b.smallJson {
+    @apply text-[.9rem] text-[#636161] font-extrabold py-2;
+}
+
+span.numberJson {
+    @apply text-xs text-red-400 font-extrabold;
+}

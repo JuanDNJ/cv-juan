@@ -6,7 +6,7 @@ import SocialNetWork from "./SocialNetWork";
 import CardDownload from "./CardDownload";
 export default function Header() {
   return (
-    <header className="relative  z-10">
+    <header className="relative z-10">
       <section className="absolute top-0 w-full h-12 ">
         <Container addclass="h-full">
           <Content className="flex justify-end h-full">

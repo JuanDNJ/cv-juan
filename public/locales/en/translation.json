@@ -30,37 +30,37 @@
     "personalInformation": "personal information",
     "dataOfInterest": {
         "title": "data of interest",
-        "item1": "driving license",
-        "item2": "geographic availability",
-        "item3": "immediate incorporation"
+        "item1": "<p class='paragrafJson'>Driving license</p>",
+        "item2": "<p class='paragrafJson'>Geographic availability</p>",
+        "item3": "<p class='paragrafJson'>Immediate incorporation</p>"
     },
     "skills": "technological skills",
     "profile": "profile",
     "contact": "contact",
     "training": {
         "title": "training",
-        "item1": "<p><b>RESKILLING training</b>, Frontend with React, taught by <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>IT ACADEMY</a>, <span class='numberJson'>2024</span></p>",
-        "item2": "<p><b>Introduction to Programming</b>. On-Line Training, taught by Universitas Telefónica, <span class='numberJson'>2017</span></p>",
-        "item3": "<p><b>Development in HTML5, CSS AND JAVASCRIPT OF WEB APPS</b> including Mobile Firefox OS 3rd Generation. On-Line Training, taught by the Polytechnic University of Madrid, <span class='numberJson'>2015</span>.</p>",
-        "item4": "<p><b>Creation and Retouching of images with Gimp software</b>. On-Line Training, taught by the University of Malaga, 2014</p>",
-        "item5": "<p><b>Web with XHTML and CSS</b>. In-person training, taught by <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
-        "item6": "<p><b>Principles of Web Layout</b>. In-person training, taught by <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
-        "item7": "<p><b>Introduction to CSS3</b>. In-person training, taught by <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
-        "item8": "<p><b>Dreamweaver</b>: Design and Integrate Websites with the HTML editor. In-person training, taught by <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>Barcelona Activa</a>. Duration: 6 hours, <span class='numberJson'>2013</span></p>",
-        "item9": "<p><b>Communication and Network Technician, Maintenance of Computer Equipment</b>. In-person training, given by <a class='linkJson' target='__blanc' href='https://www.espai.es'>www.espai.es</a>. Duration: 200 hours (theoretical-practical), <span class='numberJson'>2013</span></p>",
-        "item10": "<p><b>Masonry Course</b>. In-person training, taught by the Gaudí Institute, <span class='numberJson'>2011</span></p>",
-        "item11": "<p><b>Preventive resource</b>. Construction Sector. In-person training, taught by the Gaudí Institute, <span class='numberJson'>2008</span></p>"
+        "item1": "<p class='paragrafJson'><strong class='strongJson'>RESKILLING training</strong></br>Frontend with React, taught by <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>IT ACADEMY</a>, <span class='numberJson'>2024</span></p>",
+        "item2": "<p class='paragrafJson'><strong class='strongJson'>Introduction to Programming</strong></br>On-Line Training, taught by <b class='smallJson'>Universitas Telefónica</b>, <span class='numberJson'>2017</span></p>",
+        "item3": "<p class='paragrafJson'><strong class='strongJson'>Development in HTML5, CSS AND JAVASCRIPT OF WEB APPS</strong></br>Including Mobile Firefox OS 3rd Generation. On-Line Training, taught by the <b class='smallJson'>Polytechnic University of Madrid</b>, <span class='numberJson'>2015</span>.</p>",
+        "item4": "<p class='paragrafJson'><strong class='strongJson'>Creation and Retouching of images with Gimp software</strong></br>On-Line Training, taught by the <b class='smallJson'>University of Malaga</b>, 2014</p>",
+        "item5": "<p class='paragrafJson'><strong class='strongJson'>Web with XHTML and CSS</strong></br>In-person training, taught by <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
+        "item6": "<p class='paragrafJson'><strong class='strongJson'>Principles of Web Layout</strong></br>In-person training, taught by <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
+        "item7": "<p class='paragrafJson'><strong class='strongJson'>Introduction to CSS3</strong></br>In-person training, taught by <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>Barcelona Activa</a>, <span class='numberJson'>2013</span></p>",
+        "item8": "<p class='paragrafJson'><strong class='strongJson'>Dreamweaver</strong></br>Design and Integrate Websites with the HTML editor. In-person training, taught by <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>Barcelona Activa</a>. Duration: 6 hours, <span class='numberJson'>2013</span></p>",
+        "item9": "<p class='paragrafJson'><strong class='strongJson'>Communication and Network Technician, Maintenance of Computer Equipment</strong></br>In-person training, given by <a class='linkJson' target='__blanc' href='https://www.espai.es'>www.espai.es</a>. Duration: 200 hours (theoretical-practical), <span class='numberJson'>2013</span></p>",
+        "item10": "<p class='paragrafJson'><strong class='strongJson'>Masonry Course</strong></br>In-person training, taught by the Gaudí Institute, <span class='numberJson'>2011</span></p>",
+        "item11": "<p class='paragrafJson'><strong class='strongJson'>Preventive resource</strong></br>Construction Sector. In-person training, taught by the Gaudí Institute, <span class='numberJson'>2008</span></p>"
     },
     "professionalExperiencie": {
         "title": "professional experiencie",
-        "item1": "<p><b>Constructions and Projects FRAJOMI XXI</b>. Construction company. Job position: 1st Officer.<span class='numberJson'>2020</span> – <span class='numberJson'>2023</span></p>",
-        "item2": "<p><b>AMAZON. Job position: Piking Job</b>. <span class='numberJson'>2019</span> – <span class='numberJson'>2020</span></p>",
-        "item3": "<p><b>HURIK INSTALLATIONS AND ASSEMBLY</b>. Assembly of Elevators. Job position: Laborer. <span class='numberJson'>2019</span></p>",
-        "item4": "<p><b>CONSTRUCTIONS NOELBA, SL</b>. Construction company. Job position: 1st Officer. <span class='numberJson'>2015</span> – <span class='numberJson'>2018</span></p>",
-        "item5": "<p><b>SP3 REHABILITATION WORKS AND SERVICES</b>. Construction company. Job position: 1st Officer. <span class='numberJson'>2008</span> – <span class='numberJson'>2009</span></p>",
-        "item6": "<p><b>AQUA TERRA COMPREHENSIVE MANAGEMENT</b>. Construction company. Job position: 1st Officer. <span class='numberJson'>2007</span> –  <span class='numberJson'>2008</span></p>",
-        "item7": "<p><b>FONT HABITAT</b>. Construction company. Job position: 1st Officer. <span class='numberJson'>2000</span> –  <span class='numberJson'>2007</span></p>",
-        "item8": "<p><b>CAPRABO</b>. Supermarkets. Job position: Stocker / Supervisor. <span class='numberJson'>1996</span> –  <span class='numberJson'>1999</span></p>",
-        "item9": "<p>Currently participating in the <a class='linkJson' target='__blanc' href='https://github.com/IT-Academy-BCN/ita-profiles'>IT ACADEMY</a> - <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat/login/index.php'>ITA-Profiles</a> project.</p>"
+        "item1": "<p class='paragrafJson'><strong class='strongJson'>Constructions and Projects FRAJOMI XXI</strong></br>Construction company. Job position: 1st Officer.<span class='numberJson'>2020</span> – <span class='numberJson'>2023</span></p>",
+        "item2": "<p class='paragrafJson'><strong class='strongJson'>Amazon</strong></br>Job position: Piking Job. <span class='numberJson'>2019</span> – <span class='numberJson'>2020</span></p>",
+        "item3": "<p class='paragrafJson'><strong class='strongJson'>Hurik Installations and assembly.</strong></br>Assembly of Elevators. Job position: Laborer. <span class='numberJson'>2019</span></p>",
+        "item4": "<p class='paragrafJson'><strong class='strongJson'>CONSTRUCTIONS NOELBA, SL</strong></br>Construction company. Job position: 1st Officer. <span class='numberJson'>2015</span> – <span class='numberJson'>2018</span></p>",
+        "item5": "<p class='paragrafJson'><strong class='strongJson'>SP3 REHABILITATION WORKS AND SERVICES</strong></br>Construction company. Job position: 1st Officer. <span class='numberJson'>2008</span> – <span class='numberJson'>2009</span></p>",
+        "item6": "<p class='paragrafJson'><strong class='strongJson'>AQUA TERRA COMPREHENSIVE MANAGEMENT</strong></br>Construction company. Job position: 1st Officer. <span class='numberJson'>2007</span> –  <span class='numberJson'>2008</span></p>",
+        "item7": "<p class='paragrafJson'><strong class='strongJson'>FONT HABITAT</strong></br>Construction company. Job position: 1st Officer. <span class='numberJson'>2000</span> –  <span class='numberJson'>2007</span></p>",
+        "item8": "<p class='paragrafJson'><strong class='strongJson'>CAPRABO</strong></br>Supermarkets. Job position: Stocker / Supervisor. <span class='numberJson'>1996</span> –  <span class='numberJson'>1999</span></p>",
+        "item9": "<p class='paragrafJson'>Currently participating in the <a class='linkJson' target='__blanc' href='https://github.com/IT-Academy-BCN/ita-profiles'>IT ACADEMY</a> - <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat/login/index.php'>ITA-Profiles</a> project.</p>"
     }
 }
