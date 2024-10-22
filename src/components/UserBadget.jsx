@@ -6,7 +6,7 @@ export default function UserBadget() {
   return (
     <article className="col-span-10 flex items-center px-4">
       <img
-        src="images/jpg/juan.jpg"
+        src="images/jpg/juan_profile.jpg"
         alt="Profile photo"
         width={128}
         height={128}
