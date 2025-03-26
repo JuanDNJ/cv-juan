@@ -22,8 +22,10 @@
     },
     "aboutMe": {
         "title": "acerca de mí",
-        "item1": "Mi experiencia profesional en la informática despegó cuando termine el curso en el centro, www.espai.es.Superando el curso, Tècnic en Comunicació i Xarxes, Manteniment d´Equips Informàtics y se ha complementado con los estudios en ITAcademy y mi participación en los proyectos IT-Academy-BCN/ita-wiki-frontend y IT-Academy-BCN/ita-profiles, en el que trabajé 6 meses. Respondiendo a las prácticas de clean code, y a las metodologías ágiles de mayoría de las empresas del sector. 13 desarrolladores, en el que contribuyo, a introducir en el desarrollo a los que se han ido incorporando.",
-        "item2": "Aunque mi experiencia profesional en el ámbito de la informática, no es mucha, puedo aportar ganas de aprender e interés. Me gusta el trabajo bien hecho."
+        "item1": "Mi experiencia profesional en la informática despegó cuando termine el curso en el centro, www.espai.es.",
+        "item2": "Superando el curso, Tècnic en Comunicació i Xarxes, Manteniment d´Equips Informàtics y se ha complementado con los estudios en ITAcademy y mi participación en los proyectos IT-Academy-BCN/ita-wiki-frontend y IT-Academy-BCN/ita-profiles, en el que trabajé 6 meses.",
+        "item3": "Respondiendo a las prácticas de clean code, y a las metodologías ágiles de mayoría de las empresas del sector. 13 desarrolladores, en el que contribuyo, a introducir en el desarrollo a los que se han ido incorporando.",
+        "item4": "Tot i que la meva experiència professional en l'àmbit de la informàtica no és gaire, puc aportar ganes d'aprendre i interès. M'agrada la feina ben feta."
     },
     "name": "nombre",
     "birthdate": "fecha de nacimiento",

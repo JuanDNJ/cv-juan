@@ -32,6 +32,8 @@ export default function App() {
               <Card title="aboutMe.title">
                 <Text>{t("aboutMe.item1")}</Text>
                 <Text>{t("aboutMe.item2")}</Text>
+                <Text>{t("aboutMe.item3")}</Text>
+                <Text>{t("aboutMe.item4")}</Text>
               </Card>
               {/* <Card title="personalInformation">
                 <FlexCol>
@@ -128,13 +130,13 @@ export default function App() {
                   <ItemList text="professionalExperiencie.item3" />
                 </UnOrderedList>
               </Card>
-              <Card title="dataOfInterest.title">
+              {/* <Card title="dataOfInterest.title">
                 <UnOrderedList>
                   <ItemList text="dataOfInterest.item1" />
                   <ItemList text="dataOfInterest.item2" />
                   <ItemList text="dataOfInterest.item3" />
                 </UnOrderedList>
-              </Card>
+              </Card> */}
             </FlexCol>
           </Column>
         </Content>
