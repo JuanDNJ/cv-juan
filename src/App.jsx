@@ -51,7 +51,7 @@ export default function App() {
               </Card> */}
 
               <Card title="skills">
-                <UnOrderedList addclass="flex flex-col gap-2">
+                <UnOrderedList addclass="grid grid-cols-2 gap-2">
                   {technologicalSkills.map((tech) => (
                     <LinkSkill key={tech.id} data={tech} />
                   ))}
