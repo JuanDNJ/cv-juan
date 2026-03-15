@@ -15,7 +15,7 @@ export default function Btn({ children, title, lang }) {
       type="button"
       title={firstCharAtToUpperCase(t(title))}
       onClick={() => handlerChangeLanguage(lang)}
-      className="border border-stone-400 rounded-full z-10 hover:scale-105 hover:rotate-180 transition-transform duration-500"
+      className="lang-button z-10"
     >
       {children}
     </button>

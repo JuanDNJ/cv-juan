@@ -4,8 +4,7 @@ export default function UnOrderedList(props) {
     <ul
       role="list"
       className={`${
-        (addclass && addclass) ||
-        "text-sm md:text-[1em] list-disc list-inside py-2"
+        (addclass && addclass) || "list-stack text-sm md:text-[1em] py-1"
       } `}
     >
       {children}

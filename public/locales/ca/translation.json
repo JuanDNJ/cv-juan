@@ -1,7 +1,7 @@
 {
     "spanish": "español",
-    "inglish": "anglès",
-    "catalonia": "catalan",
+    "english": "anglès",
+    "catalan": "català",
     "firstName": "Juan Antonio",
     "surname": "Valdivia Camacho",
     "dateOfBirth": "16/06/1975",
@@ -63,6 +63,6 @@
         "item6": "<p class='paragrafJson'><strong class='strongJson'>AQUA TERRA GESTIÓ INTEGRAL</strong></br>Empresa de Construcció.<br>Lloc de treball: Oficial de 1a. <span class='numberJson'>2007</span> –<span class='numberJson'>2008</span><p>",
         "item7": "<p class='paragrafJson'><strong class='strongJson'>FONT HABITAT</strong></br>Empresa de Construcción.<br>Puesto de trabajo: Oficial de 1ª. <span class='numberJson'>2000</span> – <span class='numberJson'>2007</span><p>",
         "item8": "<p class='paragrafJson'><strong class='strongJson'>CAPRABO</strong></br>Supermercados. Puesto de trabajo: Reponedor / Supervisor. <span class='numberJson'>1996</span> – <span class='numberJson'>1999</span><p>",
-        "item9": "<p class='paragrafJson'>Actualment participant al projecte <a class='linkJson' target='__blanc' href='https://github.com/IT-Academy-BCN/ita-profiles'>ITA-Profils</a> d'<a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat'>IT Academy</a>.<p>"
+        "item9": "<p class='paragrafJson'><strong class='strongJson'>Noreste</strong></br>Monitor d'acompanyament i assistència per a persones amb mobilitat reduïda. <a class='linkJson' target='__blanc' href='https://noreste.com/'>noreste.com</a></br><span class='numberJson'>Desembre 2024</span> - Actualitat</p>"
     }
 }

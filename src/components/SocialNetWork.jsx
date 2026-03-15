@@ -6,7 +6,7 @@ import Linkedin from "./svg/Linkeding";
 export default function SocialNetWork() {
   const { t } = useTranslation();
   return (
-    <nav className="col-span-2 flex items-center justify-end gap-2 px-4">
+    <nav className="social-bar col-span-12 flex items-end justify-end gap-3 lg:col-span-4">
       {socialNetWork.map((social) => {
         return (
           <a
@@ -14,12 +14,12 @@ export default function SocialNetWork() {
             target="_black"
             href={social.url}
             title={`${firstCharAtToUpperCase(t("profile"))} ${social.name}`}
-            className="hover:scale-90 transition-transform duration-300"
+            className="social-link"
           >
             {social.component === "linkedin" ? (
-              <Linkedin fill="skyblue" />
+              <Linkedin fill="currentColor" />
             ) : (
-              <GitHub fill="white" />
+              <GitHub fill="currentColor" />
             )}
           </a>
         );

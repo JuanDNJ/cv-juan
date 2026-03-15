@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import Store from "./context";
@@ -9,8 +8,6 @@ const app = ReactDOM.createRoot(document.getElementById("root"));
 
 app.render(
   <Store>
-   
       <App />
- 
   </Store>
 );

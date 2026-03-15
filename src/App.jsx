@@ -26,9 +26,9 @@ export default function App() {
     <Fragment>
       <Header />
       <Container>
-        <Content className="grid md:grid-cols-2 gap-4">
-          <Column className="py-4">
-            <FlexCol addclass="gap-4">
+        <Content className="page-grid grid gap-6 md:grid-cols-2">
+          <Column className="py-2 md:py-4">
+            <FlexCol addclass="gap-6">
               <Card title="aboutMe.title">
                 <Text>{t("aboutMe.item1")}</Text>
                 <Text>{t("aboutMe.item2")}</Text>
@@ -50,7 +50,7 @@ export default function App() {
                 </FlexCol>
               </Card> */}
 
-              <Card title="skills">
+              <Card title="skills" addclass="print-room-card">
                 <UnOrderedList addclass="grid grid-cols-2 gap-2">
                   {technologicalSkills.map((tech) => (
                     <LinkSkill key={tech.id} data={tech} />
@@ -58,57 +58,55 @@ export default function App() {
                 </UnOrderedList>
               </Card>
 
-              <Card title="contact">
-                <FlexCol>
+              <Card title="contact" addclass="print-room-card">
+                <FlexCol addclass="gap-3">
                   <a
-                    className=" hover:underline"
+                    className="contact-item"
                     href={`mailto:${t("contacts.email")}`}
                     title={firstCharAtToUpperCase(t("email"))}
                   >
-                    <div className="flex place-items-center gap-2">
-                      <Email height="1.5em" width="1.5em" fill="#333" />
-                      <small>{t("contacts.email")} </small>
-                    </div>
+                    <Email className="contact-icon" height="1.25em" width="1.25em" fill="currentColor" />
+                    <small>{t("contacts.email")}</small>
                   </a>
 
                   <span
-                    className="flex place-items-center gap-1"
+                    className="contact-item flex-wrap"
                     title={firstCharAtToUpperCase(t("phone"))}
                   >
-                    <Phone height="1.5em" width="1.5em" fill="green" />
-                    <a href={`tel:${t("phones.phone1")}`} title={`${t("phones.phone1")}`} className=" hover:underline">
-                      <small>{t("phones.phone1")}</small></a>,
-                    <a href={`tel:${t("phones.phone2")}`} title={`${t("phones.phone2")}`} className=" hover:underline">
+                    <Phone className="contact-icon" height="1.25em" width="1.25em" fill="currentColor" />
+                    <a href={`tel:${t("phones.phone1")}`} title={`${t("phones.phone1")}`} className="inline-contact-link">
+                      <small>{t("phones.phone1")}</small>
+                    </a>
+                    <span className="contact-separator">/</span>
+                    <a href={`tel:${t("phones.phone2")}`} title={`${t("phones.phone2")}`} className="inline-contact-link">
                       <small>{t("phones.phone2")}</small>
                     </a>
                   </span>
-                  <span className="flex place-items-center gap-1" title={`${t("contacts.whatsapp")}`}>
-                    <Whatsapp height="1.5em" width="1.5em" fill="green" />
-                    <a target="_blank" href={`https://wa.me/34640282614`} title={`${t("contacts.whatsapp")}`} className=" hover:underline"><small>{t("contacts.whatsapp")}</small></a>
+                  <span className="contact-item" title={`${t("contacts.whatsapp")}`}>
+                    <Whatsapp className="contact-icon" height="1.25em" width="1.25em" fill="currentColor" />
+                    <a target="_blank" href={`https://wa.me/34640282614`} title={`${t("contacts.whatsapp")}`} className="inline-contact-link"><small>{t("contacts.whatsapp")}</small></a>
                   </span>
                   <a
-                    className="hover:underline"
+                    className="contact-item"
                     title={firstCharAtToUpperCase(t("web"))}
                     href={t("contacts.web")}
                   >
-                    <div className="flex place-items-center gap-1">
-                      <WebAddress fill="skyblue" height="1.5em" width="1.5em" />
-                      <small>{t("contacts.web")} </small>
-                    </div>
+                    <WebAddress className="contact-icon" fill="currentColor" height="1.25em" width="1.25em" />
+                    <small>{t("contacts.web")}</small>
                   </a>
                   <span
-                    className="flex items-center gap-1"
+                    className="contact-item"
                     title={firstCharAtToUpperCase(t("address"))}
                   >
-                    <Address height="1.5em" width="1.5em" fill="red" />
+                    <Address className="contact-icon" height="1.25em" width="1.25em" fill="currentColor" />
                     <SetInnerHTML text="contacts.address" />
                   </span>
                 </FlexCol>
               </Card>
             </FlexCol>
           </Column>
-          <Column className="py-4">
-            <FlexCol addclass="gap-4">
+          <Column className="py-2 md:py-4">
+            <FlexCol addclass="gap-6">
               <Card title="training.title">
                 <UnOrderedList>
                   <ItemList text="training.item1" />
