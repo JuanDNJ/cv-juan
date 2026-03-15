@@ -3,7 +3,7 @@ const languages = [
   {
     id: 1,
     language: "en",
-    name: "inglish",
+    name: "english",
     img: "./images/png/en.png",
   },
   {
@@ -15,7 +15,7 @@ const languages = [
   {
     id: 3,
     language: "ca",
-    name: "catalonia",
+    name: "catalan",
     img: "./images/png/cat.png",
   },
 ];

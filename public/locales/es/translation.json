@@ -1,7 +1,7 @@
 {
     "spanish": "español",
-    "inglish": "inglés",
-    "catalonia": "catalan",
+    "english": "inglés",
+    "catalan": "catalán",
     "firstName": "Juan Antonio",
     "surname": "Valdivia Camacho",
     "dateOfBirth": "16/06/1975",
@@ -63,6 +63,6 @@
         "item6": "<p class='paragrafJson'><strong class='strongJson'>AQUA TERRA GESTIÓN INTEGRAL</strong></br>Empresa de Construcción.</br>Puesto de trabajo: Oficial de 1ª. (Septiembre 2007 – Abril 2008)</p>",
         "item7": "<p class='paragrafJson'><strong class='strongJson'>FONT HÀBITAT</strong></br>Empresa de Construcció.</br>Puesto de trabajo: Oficial de 1a. (Octubre 2000 – Agosto 2007)</p>",
         "item8": "<p class='paragrafJson'><strong class='strongJson'>CAPRABO</strong></br>Supermercats.</br>Puesto de trabajo: Reposador/Supervisor. (Juliol 1996 – Agosto 1999)</p>",
-        "item9": "<p class='paragrafJson'>Actualmente participando en el proyecto <a class='linkJson' target='__blanc' href='https://github.com/IT-Academy-BCN/ita-profiles'>ITA-Profiles</a> de <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat/login/index.php'>IT Academy</a>.</p>"
+        "item9": "<p class='paragrafJson'><strong class='strongJson'>Noreste</strong></br>Monitor de acompañamiento y asistencia a personas con movilidad reducida. <a class='linkJson' target='__blanc' href='https://noreste.com/'>noreste.com</a></br><span class='numberJson'>Diciembre 2024</span> - Actualidad</p>"
     }
 }

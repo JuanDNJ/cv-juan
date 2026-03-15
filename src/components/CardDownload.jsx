@@ -6,12 +6,12 @@ import { firstCharAtToUpperCase } from "../utils";
 export default function CardDownload() {
   const { t } = useTranslation();
   return (
-    <section className="group relative col-span-2  flex flex-col items-center justify-center pr-4">
-      <button title={`${firstCharAtToUpperCase(t("download"))} CV`}>
-        <DownLoadPDF height="1.5em" width="1.5em" fill="red" />
+    <section className="download-shell group relative col-span-2 flex flex-col items-center justify-center px-1 md:px-2">
+      <button className="download-trigger" title={`${firstCharAtToUpperCase(t("download"))} CV`}>
+        <DownLoadPDF height="1.25em" width="1.25em" fill="currentColor" />
       </button>
-      <UnOrderedList addclass="hidden group-hover:absolute top-full w-40 py-8 -left-40 md:-left-20 group-hover:flex ">
-        <article className="bg-white w-full  flex flex-col rounded-lg border-2 border-[#575757] overflow-hidden">
+      <UnOrderedList addclass="download-menu hidden group-hover:absolute group-hover:flex top-full right-0 pt-4 w-44">
+        <article className="download-panel w-full flex flex-col overflow-hidden">
           <PdfDownLoad name="Juan_A_Valdivia_Camacho_CV_EN" lang="EN" />
           <PdfDownLoad name="Juan_A_Valdivia_Camacho_CV_ES" lang="ES" />
           <PdfDownLoad name="Juan_A_Valdivia_Camacho_CV_CA" lang="CAT" />

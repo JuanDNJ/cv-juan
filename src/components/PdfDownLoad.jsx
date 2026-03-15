@@ -28,9 +28,9 @@ export default function PdfDownLoad({ name, lang }) {
       type="button"
       title={`${firstCharAtToUpperCase(t("download"))} cv ${lang}`}
       onClick={handleDownload}
-      className="bg-stone-800 text-left p-1 text-stone-200 hover:text-stone-800 hover:bg-stone-200 transition-all transition-300"
+      className="download-option"
     >
-      <span className="flex items-center justify-between hover:text-blue-500 hover:font-extrabold">
+      <span className="flex items-center justify-between gap-3">
         {lang} <DownloadFile fill="currentColor" height="2em" width="2em" />
       </span>
     </button>

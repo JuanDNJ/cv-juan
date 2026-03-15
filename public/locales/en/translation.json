@@ -1,7 +1,7 @@
 {
     "spanish": "spanish",
-    "inglish": "inglish",
-    "catalonia": "catalan",
+    "english": "english",
+    "catalan": "catalan",
     "firstName": "Juan Antonio",
     "surname": "Valdivia Camacho",
     "email": "email",
@@ -63,6 +63,6 @@
         "item6": "<p class='paragrafJson'><strong class='strongJson'>AQUA TERRA COMPREHENSIVE MANAGEMENT</strong></br>Construction company. Job position: 1st Officer. <span class='numberJson'>2007</span> –  <span class='numberJson'>2008</span></p>",
         "item7": "<p class='paragrafJson'><strong class='strongJson'>FONT HABITAT</strong></br>Construction company. Job position: 1st Officer. <span class='numberJson'>2000</span> –  <span class='numberJson'>2007</span></p>",
         "item8": "<p class='paragrafJson'><strong class='strongJson'>CAPRABO</strong></br>Supermarkets. Job position: Stocker / Supervisor. <span class='numberJson'>1996</span> –  <span class='numberJson'>1999</span></p>",
-        "item9": "<p class='paragrafJson'>Currently participating in the <a class='linkJson' target='__blanc' href='https://github.com/IT-Academy-BCN/ita-profiles'>IT ACADEMY</a> - <a class='linkJson' target='__blanc' href='https://itacademy.barcelonactiva.cat/login/index.php'>ITA-Profiles</a> project.</p>"
+        "item9": "<p class='paragrafJson'><strong class='strongJson'>Noreste</strong></br>Support and assistance monitor for people with reduced mobility. <a class='linkJson' target='__blanc' href='https://noreste.com/'>noreste.com</a></br><span class='numberJson'>December 2024</span> - Present</p>"
     }
 }

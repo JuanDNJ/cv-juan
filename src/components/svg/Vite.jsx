@@ -1,6 +1,5 @@
 export default function Vite(props) {
   return (
-    // eslint-disable-next-line react/no-unknown-property
     <svg
       aria-hidden="true"
       role="img"

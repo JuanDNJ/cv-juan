@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { firstCharAtToUpperCase } from "../utils";
 
-export default function Card({ children, title }) {
+export default function Card({ children, title, addclass = "" }) {
   const { t } = useTranslation();
   return (
-    <div className="flex flex-col px-4">
+    <div className={`card-shell ${addclass}`}>
       <h2>{firstCharAtToUpperCase(t(title))}</h2>
-      {children}
+      <div className="card-content">{children}</div>
     </div>
   );
 }
