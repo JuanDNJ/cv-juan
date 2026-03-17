@@ -64,5 +64,10 @@
         "item7": "<p class='paragrafJson'><strong class='strongJson'>FONT HÀBITAT</strong></br>Empresa de Construcció.</br>Puesto de trabajo: Oficial de 1a. (Octubre 2000 – Agosto 2007)</p>",
         "item8": "<p class='paragrafJson'><strong class='strongJson'>CAPRABO</strong></br>Supermercats.</br>Puesto de trabajo: Reposador/Supervisor. (Juliol 1996 – Agosto 1999)</p>",
         "item9": "<p class='paragrafJson'><strong class='strongJson'>Noreste</strong></br>Monitor de acompañamiento y asistencia a personas con movilidad reducida. <a class='linkJson' target='__blanc' href='https://noreste.com/'>noreste.com</a></br><span class='numberJson'>Diciembre 2024</span> - Actualidad</p>"
+    },
+    "projects": {
+        "title": "proyectos destacados",
+        "item1": "<p class='paragrafJson'><strong class='strongJson'>Facturas Sayju - Dashboard de facturación</strong></br>Aplicación web desarrollada con React, TypeScript, Vite y Firebase para gestionar facturas, clientes, cobros y sellos fiscales.</br>Incluye autenticación, CRUD de facturas con cálculos automáticos, estadísticas, sugerencias comunitarias y soporte de tema claro/oscuro.</p>",
+        "item2": "<p class='paragrafJson'><strong class='strongJson'>Horas Adicionales</strong></br>Aplicación web desarrollada con React, TypeScript, Vite, Firebase y Tailwind CSS para registrar jornadas, gestionar perfiles laborales y calcular horas por usuario autenticado.</br>Permite consultar históricos y mantener perfiles desde una interfaz clara, moderna y responsive.</p>"
     }
 }

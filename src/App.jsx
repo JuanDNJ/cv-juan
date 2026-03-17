@@ -128,6 +128,12 @@ export default function App() {
                   <ItemList text="professionalExperiencie.item3" />
                 </UnOrderedList>
               </Card>
+              <Card title="projects.title">
+                <UnOrderedList>
+                  <ItemList text="projects.item1" />
+                  <ItemList text="projects.item2" />
+                </UnOrderedList>
+              </Card>
               {/* <Card title="dataOfInterest.title">
                 <UnOrderedList>
                   <ItemList text="dataOfInterest.item1" />
