@@ -64,5 +64,13 @@
         "item7": "<p class='paragrafJson'><strong class='strongJson'>FONT HABITAT</strong></br>Construction company. Job position: 1st Officer. <span class='numberJson'>2000</span> –  <span class='numberJson'>2007</span></p>",
         "item8": "<p class='paragrafJson'><strong class='strongJson'>CAPRABO</strong></br>Supermarkets. Job position: Stocker / Supervisor. <span class='numberJson'>1996</span> –  <span class='numberJson'>1999</span></p>",
         "item9": "<p class='paragrafJson'><strong class='strongJson'>Noreste</strong></br>Support and assistance monitor for people with reduced mobility. <a class='linkJson' target='__blanc' href='https://noreste.com/'>noreste.com</a></br><span class='numberJson'>December 2024</span> - Present</p>"
+    },
+    "projects": {
+        "title": "featured projects",
+        "item1": "<p class='paragrafJson'><strong class='strongJson'>Facturas Sayju - Billing dashboard</strong></br>Web application built with React, TypeScript, Vite, and Firebase to manage invoices, clients, payments, and fiscal stamps. <a class='linkJson' target='__blanc' href='https://sayju.app/'>sayju.app</a></br>Includes authentication, invoice CRUD with automatic calculations, statistics, a community suggestions module, and light/dark theme support.</p>",
+        "item2": "<p class='paragrafJson'><strong class='strongJson'>Horas Adicionales</strong></br>Web application built with React, TypeScript, Vite, Firebase, and Tailwind CSS to register worked shifts, manage work profiles, and calculate hours for authenticated users. <a class='linkJson' target='__blanc' href='https://jvc-horas-adicionales.web.app/'>jvc-horas-adicionales.web.app</a></br>It also provides historical records and profile management through a clear, modern, and responsive interface.</p>"
+    },
+    "project": {
+        "title": "featured project"
     }
 }

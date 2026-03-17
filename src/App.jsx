@@ -19,6 +19,7 @@ import WebAddress from "./components/svg/WebAddress";
 import LinkSkill from "./components/LinkSkill";
 import Whatsapp from "./components/svg/Whatsapp";
 import SetInnerHTML from "./components/SetInnerHTML";
+import ProjectEntry from "./components/ProjectEntry";
 
 export default function App() {
   const { t } = useTranslation();
@@ -103,6 +104,15 @@ export default function App() {
                   </span>
                 </FlexCol>
               </Card>
+              <Card title="project.title">
+                <ProjectEntry
+                  text="projects.item1"
+                  href="https://sayju.app/"
+                  title="Facturas Sayju"
+                  image="images/jpg/facturasSAYJU.png"
+                  alt="Captura de Facturas Sayju"
+                />
+              </Card>
             </FlexCol>
           </Column>
           <Column className="py-2 md:py-4">
@@ -127,6 +137,15 @@ export default function App() {
                   <ItemList text="professionalExperiencie.item2" />
                   <ItemList text="professionalExperiencie.item3" />
                 </UnOrderedList>
+              </Card>
+              <Card title="project.title">
+                <ProjectEntry
+                  text="projects.item2"
+                  href="https://jvc-horas-adicionales.web.app/"
+                  title="Horas Adicionales"
+                  image="images/jpg/HorasAdicionales.png"
+                  alt="Captura de Horas Adicionales"
+                />
               </Card>
               {/* <Card title="dataOfInterest.title">
                 <UnOrderedList>

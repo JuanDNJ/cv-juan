@@ -412,6 +412,53 @@ strong {
   gap: 0.85rem;
 }
 
+.project-shot {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--control-border);
+  border-radius: 1.25rem;
+  background: var(--control-bg);
+  box-shadow: var(--shadow);
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.project-shot:hover {
+  transform: translateY(-3px);
+  border-color: rgba(126, 179, 255, 0.48);
+  background: var(--control-bg-hover);
+}
+
+.project-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-entry-card {
+  display: grid;
+  gap: 0.85rem;
+  align-content: start;
+}
+
+.project-copy .rich-item,
+.project-copy {
+  color: var(--muted);
+}
+
+.project-copy .paragrafJson {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.project-copy strong {
+  color: var(--text);
+}
+
+@media (max-width: 768px) {
+}
+
 .rich-item {
   position: relative;
   padding: 0.95rem 0 0.95rem 1.35rem;
@@ -798,6 +845,20 @@ strong {
 
   .skill-link {
     padding: 0.2rem 0.35rem;
+  }
+
+  .project-shot {
+    border: 0;
+    border-radius: 0.75rem;
+    box-shadow: none;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .project-entry-card {
+    gap: 0.45rem;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .skill-link small,
