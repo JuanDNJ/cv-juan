@@ -67,7 +67,10 @@
     },
     "projects": {
         "title": "projectes destacats",
-        "item1": "<p class='paragrafJson'><strong class='strongJson'>Facturas Sayju - Dashboard de facturació</strong></br>Aplicació web desenvolupada amb React, TypeScript, Vite i Firebase per gestionar factures, clients, cobraments i segells fiscals.</br>Inclou autenticació, CRUD de factures amb càlculs automàtics, estadístiques, un mòdul de suggeriments comunitaris i suport de tema clar/fosc.</p>",
-        "item2": "<p class='paragrafJson'><strong class='strongJson'>Horas Adicionales</strong></br>Aplicació web desenvolupada amb React, TypeScript, Vite, Firebase i Tailwind CSS per registrar jornades, gestionar perfils laborals i calcular hores per usuari autenticat.</br>També permet consultar històrics i mantenir perfils des d'una interfície clara, moderna i responsive.</p>"
+        "item1": "<p class='paragrafJson'><strong class='strongJson'>Facturas Sayju - Dashboard de facturació</strong></br>Aplicació web desenvolupada amb React, TypeScript, Vite i Firebase per gestionar factures, clients, cobraments i segells fiscals. <a class='linkJson' target='__blanc' href='https://sayju.app/'>sayju.app</a></br>Inclou autenticació, CRUD de factures amb càlculs automàtics, estadístiques, un mòdul de suggeriments comunitaris i suport de tema clar/fosc.</p>",
+        "item2": "<p class='paragrafJson'><strong class='strongJson'>Horas Adicionales</strong></br>Aplicació web desenvolupada amb React, TypeScript, Vite, Firebase i Tailwind CSS per registrar jornades, gestionar perfils laborals i calcular hores per usuari autenticat. <a class='linkJson' target='__blanc' href='https://jvc-horas-adicionales.web.app/'>jvc-horas-adicionales.web.app</a></br>També permet consultar històrics i mantenir perfils des d'una interfície clara, moderna i responsive.</p>"
+    },
+    "project": {
+        "title": "projecte destacat"
     }
 }

@@ -67,7 +67,10 @@
     },
     "projects": {
         "title": "featured projects",
-        "item1": "<p class='paragrafJson'><strong class='strongJson'>Facturas Sayju - Billing dashboard</strong></br>Web application built with React, TypeScript, Vite, and Firebase to manage invoices, clients, payments, and fiscal stamps.</br>Includes authentication, invoice CRUD with automatic calculations, statistics, a community suggestions module, and light/dark theme support.</p>",
-        "item2": "<p class='paragrafJson'><strong class='strongJson'>Horas Adicionales</strong></br>Web application built with React, TypeScript, Vite, Firebase, and Tailwind CSS to register worked shifts, manage work profiles, and calculate hours for authenticated users.</br>It also provides historical records and profile management through a clear, modern, and responsive interface.</p>"
+        "item1": "<p class='paragrafJson'><strong class='strongJson'>Facturas Sayju - Billing dashboard</strong></br>Web application built with React, TypeScript, Vite, and Firebase to manage invoices, clients, payments, and fiscal stamps. <a class='linkJson' target='__blanc' href='https://sayju.app/'>sayju.app</a></br>Includes authentication, invoice CRUD with automatic calculations, statistics, a community suggestions module, and light/dark theme support.</p>",
+        "item2": "<p class='paragrafJson'><strong class='strongJson'>Horas Adicionales</strong></br>Web application built with React, TypeScript, Vite, Firebase, and Tailwind CSS to register worked shifts, manage work profiles, and calculate hours for authenticated users. <a class='linkJson' target='__blanc' href='https://jvc-horas-adicionales.web.app/'>jvc-horas-adicionales.web.app</a></br>It also provides historical records and profile management through a clear, modern, and responsive interface.</p>"
+    },
+    "project": {
+        "title": "featured project"
     }
 }
